@@ -8,7 +8,7 @@ a{
     padding:5px;
 }
 a:not([href]){
-  cursor:pointer;
+  cursor:pointer !important;
 }
 a:hover{
   cursor:pointer;
