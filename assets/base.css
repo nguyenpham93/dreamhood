@@ -81,6 +81,11 @@ a:hover{
 	 left: 62%;
 }
 
+.shipping-free-tip{
+  border-top: 1px solid #474847;
+  border-bottom: 1px solid #474847;
+}
+
 /* End Nguyen custom*/
 
 :root,
