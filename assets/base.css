@@ -74,7 +74,7 @@ a:hover{
 	 font-size: 1.4rem;
 	 background: #ffffff;
 	 left: 3%;
-     top: 36%;
+     top: 74%;
 	 transform-origin: center 120%;
 }
  .tooltip:after {
@@ -85,7 +85,7 @@ a:hover{
 	 border: 7px solid transparent;
 	 border-bottom: 5px solid #333;
 	 border-top-color: rgba(0, 1, 0, );
-	 left: 62%;
+	 left: 43%;
 }
 
 .shipping-free-tip{
