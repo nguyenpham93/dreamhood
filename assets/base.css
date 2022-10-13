@@ -19,6 +19,11 @@ a:hover{
   font-size: 1.1rem;
 }
 
+/* Remove app name */
+.wc_review_top_title > a{
+  display:none !important;
+}
+
 /* End Nguyen custom*/
 
 :root,
