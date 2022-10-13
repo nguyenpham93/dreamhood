@@ -11,11 +11,11 @@
         "78f0d468-8e10-42ac-9c62-9d80794bc042": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
+            "stars_fill_color": "#946f00",
+            "star_size": 16,
+            "text_align": "flex-start",
             "product": "{{product}}",
-            "stars_text_empty": "No reviews"
+            "stars_text_empty": "0.0 out of 5 Customer Rating"
           }
         },
         "price": {
