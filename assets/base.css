@@ -34,54 +34,53 @@ a:hover{
 }
 
 // tooltip SCSS
-.has-tooltip{
-	position: relative;
-	font-style: normal;
-	&:hover{
-		cursor: help;
-		.tooltip{
-			visibility: visible;
-			opacity: 1;
-			transform: rotateX(0deg) scale(1);
-			pointer-events: auto;
-		}
-	}
+.has-tooltip {
+	 position: relative;
+	 font-style: normal;
 }
-.tooltip{
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 120%;
-	width: 160px;
-	padding: .75rem 1rem;
-	border-radius: 6px;
-	text-indent: 0;
-	white-space: normal;
-	text-align: center;
-	color: #fff;
-	display: block;
-	visibility: hidden;
-	pointer-events: none;
-	z-index: 1;
-	opacity: 0;
-	transition: all 250ms;
-	transform: rotateX(20deg) scale(0.8);	
-	font-size: 0.625rem;
-	background: rgba($black, 0.9);
-	left: 50%;
-	margin: 0 0 5px -80px;
-	transform-origin: center 120%;
-
-	&:after{
-		content: "";
-		position: absolute;
-		top: 100%;
-		width: 0;
-		border: 7px solid transparent;
-		border-top: 5px solid #333;
-		border-top-color: rgba($black, 0.9);
-		left: 50%;
-		margin-left: -7px;
-	}
+ .has-tooltip:hover {
+	 cursor: help;
+}
+ .has-tooltip:hover .tooltip {
+	 visibility: visible;
+	 opacity: 1;
+	 transform: rotateX(0deg) scale(1);
+	 pointer-events: auto;
+}
+ .tooltip {
+	 text-transform: uppercase;
+	 position: absolute;
+	 bottom: 120%;
+	 width: 160px;
+	 padding: 0.75rem 1rem;
+	 border-radius: 6px;
+	 text-indent: 0;
+	 white-space: normal;
+	 text-align: center;
+	 color: #fff;
+	 display: block;
+	 visibility: hidden;
+	 pointer-events: none;
+	 z-index: 1;
+	 opacity: 0;
+	 transition: all 250ms;
+	 transform: rotateX(20deg) scale(0.8);
+	 font-size: 0.625rem;
+	 background: rgba(0, 1, 0, );
+	 left: 50%;
+	 margin: 0 0 5px -80px;
+	 transform-origin: center 120%;
+}
+ .tooltip:after {
+	 content: "";
+	 position: absolute;
+	 top: 100%;
+	 width: 0;
+	 border: 7px solid transparent;
+	 border-top: 5px solid #333;
+	 border-top-color: rgba(0, 1, 0, );
+	 left: 50%;
+	 margin-left: -7px;
 }
 
 /* End Nguyen custom*/
