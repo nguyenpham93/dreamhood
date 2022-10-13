@@ -19,6 +19,11 @@ a:hover{
   color:#000;
 }
 
+.fragrance-note-list{
+  padding: 0 auto !important;
+  margin: 0 auto !important;
+}
+
 .spr-stars{
   font-style: italic;
   font-weight: 500;
