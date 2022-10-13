@@ -338,11 +338,15 @@
                   </h2>
                 </a>
               </div>
+
+            <!-- Nguyen code -->
               <div class ="romance-content">
                  <div class="romance-text-all">
                     {{ product.metafields.custom.fragrance_notes }}
                   </div>
               </div>
+
+            
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
