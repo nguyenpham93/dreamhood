@@ -343,7 +343,7 @@
               <div class ="romance-content">
                  <div class="romance-text-all">
                     <div id="truncated">{{ product.metafields.custom.fragrance_notes | truncatewords: 10, "... <a class='read-more-romance'>Read More</a>" }}</div>
-                    <div id="fullDescription" style="display: none">{{ product.metafields.custom.fragrance_notes }} <a class='show-less-romance'>...Show Less</a></div>
+                    <div id="fullDescription" style="display: none">{{ product.metafields.custom.fragrance_notes }} <a class='read-less-romance'>...Read Less</a></div>
                   </div>
               </div>
             <!-- End Nguyen code -->
@@ -1184,11 +1184,17 @@
    <!-- Nguyen code -->
 <style>
   .read-more-romance:hover{cursor:pointer}
+  .read-less-romance:hover{cursor:pointer}
 </style>
 <script>
-  $('#truncated').on('click', function(){
+  $('.read-more-romance').on('click', function(){
     $('#truncated').fadeOut(300, function(){ 
       $('#fullDescription').fadeIn(500);
+    })
+  });
+  $('.read-less-romance').on('click', function(){
+    $('#fullDescription').fadeOut(300, function(){ 
+      $('#truncated').fadeIn(500);
     })
   });
 </script>
