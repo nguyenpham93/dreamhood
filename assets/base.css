@@ -7,9 +7,7 @@ a{
     fill: #4e616a;
     padding:5px;
 }
-a:not([href]){
-  cursor:pointer !important;
-}
+
 a:hover{
   cursor:pointer;
   text-decoration: underline;
@@ -688,9 +686,6 @@ h6:empty {
   margin-left: 1rem;
 }
 
-a:not([href]) {
-  cursor: not-allowed;
-}
 
 .circle-divider::after {
   content: '\2022';
