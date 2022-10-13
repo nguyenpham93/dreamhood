@@ -318,15 +318,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
-              {% render block %}
-            {%- when 'text' -%}
-            
-              <!--<p
-                class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                {{- block.settings.text -}}
-              </p> -->
+              {% render block %}          
 
             
             {%- when 'title' -%}
@@ -346,6 +338,8 @@
                     <div id="fullDescription" style="display: none">{{ product.metafields.custom.fragrance_notes }} <a href='#' class='read-less-romance'>Read Less</a></div>
                   </div>
               </div>
+
+              
             <!-- End Nguyen code -->
             
             {%- when 'price' -%}
