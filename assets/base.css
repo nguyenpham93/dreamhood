@@ -1,4 +1,13 @@
 /* Color custom properties */
+a{
+    text-decoration: none;
+    color: #4e616a;
+    fill: #4e616a;
+}
+a:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
 
 :root,
 .color-background-1 {
