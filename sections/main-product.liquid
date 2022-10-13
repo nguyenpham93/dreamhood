@@ -630,11 +630,7 @@
                           {%- if product.selected_or_first_available_variant.available -%}
                             <!-- Nguyen code -->
                            <!-- {{ 'products.product.add_to_cart' | t }} -->
-                            <svg role="img" class="icon svg-icon shopping-cart" width="24" height="24" aria-hidden="true" tabindex="-1">
-                              <title>icon</title>
-                              <desc>icon</desc>
-                              <use role="img" xlink:href="#bag" alt="icon"></use>
-                            </svg>
+                            
                             Add to Bag
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
