@@ -67,7 +67,6 @@ a:hover{
 	 font-size: 0.625rem;
 	 background: #fff;
 	 left: 50%;
-	 margin: 0 0 5px -80px;
 	 transform-origin: center 120%;
 }
  .tooltip:after {
