@@ -40,7 +40,7 @@ a:hover{
 }
  .has-tooltip:hover {
 	 cursor: help;
-   color:red;
+   background-color:red !important;
 }
  .has-tooltip:hover .tooltip {
 	 visibility: visible;
