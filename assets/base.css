@@ -73,13 +73,12 @@ a:hover{
  .tooltip:after {
 	 content: "";
 	 position: absolute;
-	 top: 100%;
+	 top: 0%;
 	 width: 0;
 	 border: 7px solid transparent;
-	 border-top: 5px solid #333;
+	 border-bottom: 5px solid #333;
 	 border-top-color: rgba(0, 1, 0, );
 	 left: 50%;
-	 margin-left: -7px;
 }
 
 /* End Nguyen custom*/
