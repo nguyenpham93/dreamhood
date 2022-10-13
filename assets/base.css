@@ -73,7 +73,7 @@ a:hover{
  .tooltip:after {
 	 content: "";
 	 position: absolute;
-	 top: 0%;
+	 top: -7%;
 	 width: 0;
 	 border: 7px solid transparent;
 	 border-bottom: 5px solid #333;
