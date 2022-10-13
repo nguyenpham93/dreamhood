@@ -21,7 +21,7 @@ a:hover{
 
 /* Remove app review name */
 .wc_review_top_title > a{
-  display:none !important;
+  scale:0 !important;
 }
 
 /* End Nguyen custom*/
