@@ -13,6 +13,10 @@ a:hover{
   text-decoration: underline;
 }
 
+.text12{
+  font-size: .75rem;
+}
+
 .spr-stars{
   font-style: italic;
   font-weight: 500;
