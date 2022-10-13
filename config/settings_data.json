@@ -6,7 +6,7 @@
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
     "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#4e616a",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
@@ -216,6 +216,9 @@
         }
       }
     },
+    "content_for_index": [
+
+    ],
     "blocks": {
       "21474836472147483647": {
         "type": "shopify:\/\/apps\/fontify-use-any-font\/blocks\/app-embed\/334490e2-2153-4a2e-a452-e90bdeffa3cc",
