@@ -25,8 +25,8 @@ a:hover{
 }
 
 .icon-cart-product-page{
-  width:3.5em;
-  height:3.5em;
+  width:3.5em !important;
+  height:3.5em !important;
 }
 
 .product-form__submit{
