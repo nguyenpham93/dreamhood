@@ -19,7 +19,7 @@ a:hover{
   font-size: 1.1rem;
 }
 
-/* Remove app name */
+/* Remove app review name */
 .wc_review_top_title > a{
   display:none !important;
 }
