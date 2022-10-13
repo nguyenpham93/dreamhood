@@ -342,10 +342,11 @@
             <!-- Nguyen code -->
               <div class ="romance-content">
                  <div class="romance-text-all">
-                    {{ product.metafields.custom.fragrance_notes }}
+                    <div id="truncated">{{ product.metafields.custom.fragrance_notes | truncatewords: 100, "... <a class='read-more-romance'>Read More</a>" }}</div>
+                    <div id="fullDescription" style="display: none">{{ product.metafields.custom.fragrance_notes }}</div>
                   </div>
               </div>
-
+            <!-- End Nguyen code -->
             
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
@@ -1180,6 +1181,19 @@
   </script>
 </section>
 
+   <!-- Nguyen code -->
+<style>
+  .read-more-romance:hover{cursor:pointer}
+</style>
+<script>
+  $('#truncated').on('click', function(){
+    $('#truncated').fadeOut(300, function(){ 
+      $('#fullDescription').fadeIn(500);
+    })
+  });
+</script>
+<!-- End Nguyen code -->
+                  
 {% schema %}
 {
   "name": "t:sections.main-product.name",
