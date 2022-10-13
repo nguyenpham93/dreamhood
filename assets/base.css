@@ -55,7 +55,7 @@ a:hover{
 	 border-radius: 6px;
 	 text-indent: 0;
 	 white-space: normal;
-	 text-align: center;
+	 text-align: left;
 	 color: #696158;
 	 display: block;
 	 visibility: hidden;
@@ -64,7 +64,7 @@ a:hover{
   	 opacity: 0;
 	 transition: all 250ms;
 	 transform: rotateX(20deg) scale(0.8);
-	 font-size: 1.1rem;
+	 font-size: 1.4rem;
 	 background: #ffffff;
 	 left: 3%;
      top: 36%;
