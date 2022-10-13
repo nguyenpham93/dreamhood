@@ -50,7 +50,7 @@ a:hover{
  .tooltip {
 	 text-transform: uppercase;
 	 position: absolute;
-	 width: 160px;
+	 width: 95%;
 	 padding: 0.75rem 1rem;
 	 border-radius: 6px;
 	 text-indent: 0;
