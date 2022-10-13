@@ -8,13 +8,6 @@
           "settings": {
           }
         },
-        "2d2fdc67-6eec-4925-921c-60536da75a12": {
-          "type": "text",
-          "settings": {
-            "text": "Hello",
-            "text_style": "body"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -87,7 +80,6 @@
       },
       "block_order": [
         "title",
-        "2d2fdc67-6eec-4925-921c-60536da75a12",
         "price",
         "variant_picker",
         "quantity_selector",
