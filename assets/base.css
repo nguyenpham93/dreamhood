@@ -61,8 +61,7 @@ a:hover{
 	 display: block;
 	 
 	 
-	 z-index: 1;
-	 opacity: 0;
+
 	 transition: all 250ms;
 	 transform: rotateX(20deg) scale(0.8);
 	 font-size: 0.625rem;
