@@ -56,6 +56,12 @@
         "padding_bottom": 12
       }
     },
+    "166564369528caed4a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1665643723b41d58d7": {
       "type": "apps",
       "blocks": {
@@ -68,12 +74,6 @@
       "block_order": [
         "1161ceb5-1470-49b2-90f8-4b2a61e553f1"
       ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "166564369528caed4a": {
-      "type": "apps",
       "settings": {
         "include_margins": true
       }
@@ -188,8 +188,8 @@
   },
   "order": [
     "main",
-    "1665643723b41d58d7",
     "166564369528caed4a",
+    "1665643723b41d58d7",
     "16656421419ee54853",
     "16656436731fd65837",
     "image-with-text",
