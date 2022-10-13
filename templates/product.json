@@ -8,6 +8,13 @@
           "settings": {
           }
         },
+        "2d2fdc67-6eec-4925-921c-60536da75a12": {
+          "type": "text",
+          "settings": {
+            "text": "Hello",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -76,16 +83,11 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "d10fb70c-5451-4037-aaa5-1e2a81c0ed63": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{custom.fragrance_notes}}"
-          }
         }
       },
       "block_order": [
         "title",
+        "2d2fdc67-6eec-4925-921c-60536da75a12",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -95,8 +97,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "d10fb70c-5451-4037-aaa5-1e2a81c0ed63"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
