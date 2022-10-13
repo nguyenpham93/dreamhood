@@ -114,6 +114,12 @@
         "padding_bottom": 12
       }
     },
+    "16656421419ee54853": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -212,6 +218,7 @@
   },
   "order": [
     "main",
+    "16656421419ee54853",
     "image-with-text",
     "multicolumn",
     "product-recommendations"
