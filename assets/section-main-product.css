@@ -17,7 +17,9 @@
 
 /*Nguyen css*/
 .product__info-container{
-  padding: 2.4rem;
+  box-shadow: 0 0 0.25rem 0 rgb(0 0 0 / 25%);
+  border-radius: 0.25rem;
+  padding: 2.5rem 1.5rem 1.5rem;
 }
 
 @media screen and (min-width: 750px) {
