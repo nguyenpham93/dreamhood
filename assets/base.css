@@ -12,6 +12,11 @@ a:hover{
   text-decoration: underline;
 }
 
+.spr-stars{
+  font-style: italic;
+    font-weight: 500;
+}
+
 /* End Nguyen custom*/
 
 :root,
