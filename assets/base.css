@@ -3,6 +3,7 @@ a{
     text-decoration: none;
     color: #4e616a;
     fill: #4e616a;
+    padding:5px;
 }
 a:hover{
   cursor:pointer;
