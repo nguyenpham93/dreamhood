@@ -99,6 +99,11 @@ a:hover{
     line-height: 1.5rem;
 }
 
+.details-title{
+  margin: 4.375rem 0 0;
+  text-align:center;
+}
+
 /* End Nguyen custom*/
 
 :root,
