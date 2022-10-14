@@ -700,6 +700,12 @@ table:not([class]) th {
   }
 }
 
+@media screen and (min-width: 750px) {
+  .only-mobile {
+    display: none !important;
+  }
+}
+
 .left {
   text-align: left;
 }
