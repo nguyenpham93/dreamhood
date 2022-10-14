@@ -361,12 +361,7 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
-            {%- when 'description' -%}
-              {%- if product.description != blank -%}
-                <div class="product__description rte quick-add-hidden">
-                  {{ product.description }}
-                </div>
-              {%- endif -%}
+            
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
@@ -1189,6 +1184,15 @@
       ]
     }
   </script>
+
+  <!-- Nguyen code Product Details start -->
+  <section id="shopify-section-{{ section.id }}" class="shopify-section section">
+    <div class="page-width">
+      abc
+    </div>
+  </section>
+
+  <!-- Nguyen code Product Details end -->              
 </section>
 
    <!-- Nguyen code -->
