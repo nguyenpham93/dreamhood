@@ -61,6 +61,8 @@
     <!-- nguyen code: product title for mobile end -->
     <!-- add romance-content-mobile -->
     {% render 'romance-content-mobile' %}
+    <!-- add star-rating-mobile -->
+    <div class="wc_product_review_badge medium-hide large-up-hide" data-handle="{{ product.handle }}" data-product_id="{{ product.id }}"></div>
 
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       <media-gallery
