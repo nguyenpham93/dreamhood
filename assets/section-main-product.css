@@ -17,9 +17,19 @@
 
 /*Nguyen css*/
 .product__info-container{
+  -webkit-box-shadow: 0 0 0.25rem 0 rgb(0 0 0 / 25%);
+  -moz-box-shadow:0 0 0.25rem 0 rgb(0 0 0 / 25%);
   box-shadow: 0 0 0.25rem 0 rgb(0 0 0 / 25%);
   border-radius: 0.25rem;
   padding: 2.5rem 2rem 2rem;
+}
+
+@media screen and (max-width: 749px){
+  -webkit-box-shadow: none;
+  -moz-box-shadow:none;
+  box-shadow: none;
+  border-radius: unset;
+  padding: 0;
 }
 
 @media screen and (min-width: 750px) {
