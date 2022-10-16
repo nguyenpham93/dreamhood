@@ -417,7 +417,7 @@
                     </span>
                     {% render 'icon-minus' %}
                   </button>
-                  <input
+                  <!-- <input
                     class="quantity__input"
                     type="number"
                     name="quantity"
@@ -425,7 +425,7 @@
                     min="1"
                     value="1"
                     form="{{ product_form_id }}"
-                  >
+                  > -->
                   <button class="quantity__button no-js-hidden" name="plus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
@@ -434,6 +434,14 @@
                   </button>
                 </quantity-input>
               </div>
+
+                <select id="Quantity-{{ section.id }}" class="quantity__input quantity-select custom-select form-control" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
+              <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+              </select>
+            
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
