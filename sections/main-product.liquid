@@ -347,8 +347,12 @@
                 </a>
               </div>
 
-            <!-- Start Nguyen short romance -->
+            <!-- Nguyen short romance -->
               {% render 'romance-content' %}
+
+            <!-- Nguyen review start on desktop -->
+            <div class="wc_product_review_badge small-hide" data-handle="{{ product.handle }}" data-product_id="{{ product.id }}"></div>
+            {% render 'th-product-review-seo' %}
             
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
