@@ -417,6 +417,15 @@
                     </span>
                     {% render 'icon-minus' %}
                   </button>
+
+                    <select id="Quantity-{{ section.id }}" type="number" name="quantity" class="quantity__input quantity-select custom-select form-control" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
+              <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+              </select>
+
+            
                   <!-- <input
                     class="quantity__input"
                     type="number"
@@ -435,12 +444,7 @@
                 </quantity-input>
               </div>
 
-                <select id="Quantity-{{ section.id }}" class="quantity__input quantity-select custom-select form-control" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
-              <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-              </select>
+                
             
             {%- when 'popup' -%}
               <modal-opener
