@@ -410,33 +410,7 @@
                   {{ 'products.product.quantity.label' | t }}
                 </label>
 
-                <!-- <quantity-input class="quantity">
-                <!-- start Code gốc -->
-                  
-             <button class="quantity__button no-js-hidden" name="minus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-minus' %}
-                  </button>
-                  <input
-                    class="quantity__input"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    min="1"
-                    value="1"
-                    form="{{ product_form_id }}"
-                  > 
-                  <button class="quantity__button no-js-hidden" name="plus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-plus' %}
-                  </button> 
-            <!-- end code gốc -->
-            
-                </quantity-input> -->
+                
             <!-- Nguyen custom quantity start -->
                 <select id="Quantity-{{ section.id }}" name="quantity" class="quantity__input form-control" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
                   <option value="1">1</option>
