@@ -8,17 +8,6 @@
           "settings": {
           }
         },
-        "2e7bafd7-3c87-425b-af71-7014fcde1f4e": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews-qa\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        },
-        "a62e792d-2f06-4d11-978a-6949ce4a68bb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'th-product-review-seo' %}"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -38,8 +27,6 @@
       },
       "block_order": [
         "title",
-        "2e7bafd7-3c87-425b-af71-7014fcde1f4e",
-        "a62e792d-2f06-4d11-978a-6949ce4a68bb",
         "price",
         "quantity_selector",
         "buy_buttons"
