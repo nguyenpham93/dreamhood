@@ -574,29 +574,26 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }} class="mt-4">
+              <div {{ block.shopify_attributes }} class="quantity-and-add-cart-button-container">
                 <div class="select-quantity-container">
-                  <div class="custom-select-wrapper">
-                    
-                      <select id="Quantity-{{ section.id }}" name="quantity" class="custom-select-wrapper quantity__input form-control" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
-                        <option value="1" selected="">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                      </select>
-                      <label class="form__label" for="Quantity-{{ section.id }}">
+                  <select id="Quantity-{{ section.id }}" name="quantity" class="select-quantity" value="1"  data-enable="Quantity:" aria-hidden="false" form="{{ product_form_id }}">
+                    <option value="1" selected="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  <label class="select-form-label" for="Quantity-{{ section.id }}">
                         {{ 'products.product.quantity.label' | t }}
-                      </label>
-        
-                  </div>
+                  </label>
                 </div>
-                <div class="add-to-cart-button-container">
+              
+                <div class="add-to-cart-container">
                   <product-form class="product-form">
                     <div class="product-form__error-message-wrapper" role="alert" hidden>
                       <svg
@@ -656,13 +653,6 @@
                             </svg>
                           </div>
                         </button>
-                      
-                      <!-- Disable Paypal check out start -->
-                        <!-- {%- if block.settings.show_dynamic_checkout -%}
-                          {{ form | payment_button }}
-                        {%- endif -%} -->
-                      <!-- Disable Paypal check out end -->
-                      
                       </div>
                     {%- endform -%}
                   </product-form>
