@@ -93,6 +93,13 @@
   flex-basis: 46%;
 }
 
+.product-detail .specifications-row{
+  padding: 0.5rem 1.25rem;
+}
+
+.product-detail .specifications-row:nth-child(odd){
+  background-color: #f2f2f2;
+}
 
 /* end nguyen css*/
 @media screen and (min-width: 750px) {
