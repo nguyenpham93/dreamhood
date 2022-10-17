@@ -51,7 +51,7 @@
 }
 .add-to-cart-container{
   width: calc(100% - 4.875rem);
-  height:3.125rem;
+  height:calc(4.5rem + var(--buttons-border-width) * 2);
 }
 
 .select-quantity{
@@ -60,7 +60,7 @@
     opacity: .8;
     padding-top: 1.25rem;
     padding-bottom: 0.375rem;
-    height: 3.125rem;
+    height: calc(4.5rem + var(--buttons-border-width) * 2);
     padding-left: 0.5rem;
     max-width: 18.75rem;
     display: inline-block;
