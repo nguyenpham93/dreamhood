@@ -43,6 +43,7 @@
   margin:0;
   width:100%;
   justify-content: space-between;
+  -webkit-box-pack: justify;
 }
 
 .select-quantity-container{
