@@ -89,7 +89,7 @@
   margin: 0 !important;
 }
 
-.product-detail .left-content{
+.product-detail .left-content, .product-detail .right-content{
   flex-basis: 46%;
 }
 
