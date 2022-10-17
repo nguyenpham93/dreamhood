@@ -35,19 +35,21 @@
 }
 
 .flex-row{
-  display: table;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin:0;
   width:100%;
 }
 
 .select-quantity-container{
   width: 4.375rem;
-  display: table-cell;
   margin: 0 .5rem 0 0;
   position:relative;
 }
 .add-to-cart-container{
-  display: table-cell;
   width: calc(100% - 4.875rem);
 }
 
