@@ -40,8 +40,8 @@
 }
 
 .select-quantity-container{
-  display: table-cell;
   width: 4.375rem;
+  display: table-cell;
   margin: 0 .5rem 0 0;
   position:relative;
 }
