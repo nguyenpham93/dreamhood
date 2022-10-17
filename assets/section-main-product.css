@@ -95,6 +95,8 @@
 
 .product-detail .specifications-row{
   padding: 0.5rem 1.25rem;
+  word-break: break-word;
+  list-style-type: none;
 }
 
 .product-detail .specifications-row:nth-child(odd){
