@@ -45,12 +45,12 @@
 }
 
 .select-quantity-container{
-  width: 4.375rem;
+  width: 7.375rem;
   margin: 0 .5rem 0 0;
   position:relative;
 }
 .add-to-cart-container{
-  width: calc(100% - 4.875rem);
+  width: calc(100% - 7.875rem);
   height:calc(4.5rem + var(--buttons-border-width) * 2);
 }
 
