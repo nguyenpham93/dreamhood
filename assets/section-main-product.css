@@ -38,11 +38,13 @@
   display:flex;
   flex-wrap: wrap;
   align-items: center;
+  margin:0;
 }
 
 .select-quantity-container{
   width: 4.375rem;
   margin: 0 .5rem 0 0;
+  position:relative;
 }
 .add-to-cart-container{
   width: calc(100% - 4.875rem);
