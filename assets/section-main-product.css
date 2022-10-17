@@ -34,6 +34,11 @@
   }
 }
 
+.flex-row{
+  display:flex;
+  flex-wrap: wrap;
+}
+
 /* end nguyen css*/
 @media screen and (min-width: 750px) {
   .product--thumbnail .product__media-gallery,
