@@ -67,6 +67,10 @@
     width: 100%;
 }
 
+.select-quantity-container::after{
+  right:1.5rem;
+}
+
 .product-add-to-cart-button{
   height: calc(4.5rem + var(--buttons-border-width) * 2);
 }
