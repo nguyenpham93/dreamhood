@@ -37,6 +37,7 @@
 .flex-row{
   display:flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 /* end nguyen css*/
