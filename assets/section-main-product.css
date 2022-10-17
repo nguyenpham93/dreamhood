@@ -82,7 +82,7 @@
 }
 
 .quantity-and-add-cart-button-container .product-form{
-  margin: 0;
+  margin: 0 !important;
 }
 
 
