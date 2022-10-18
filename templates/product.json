@@ -23,20 +23,13 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "9d4778f7-c4cc-46f8-a7ea-e07ab6bafa39": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{ product.metafields.custom.top_notes_image }}"
-          }
         }
       },
       "block_order": [
         "title",
         "price",
         "quantity_selector",
-        "buy_buttons",
-        "9d4778f7-c4cc-46f8-a7ea-e07ab6bafa39"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
