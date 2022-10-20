@@ -1035,21 +1035,20 @@
   <section class="shopify-section section">
     <div class="page-width">
       <h4 class="details-title" role="heading" aria-level="2">Product Details</h4>
-      <div class="grid product-detail grid--1-col grid--2-col-tablet grid--2-col-desktop">
-        <div class="grid__item">
-          <h5 class="title">About this Fragrance</h5>
-          <p>{{ product.metafields.custom.about_fragrances }}</p>
+      <div class="grid product-detail grid--1-col grid--2-col-tablet grid--2-col-desktop accordion">
+        <div class="grid__item accordion-item">
+          <h5 class="title accordion-thumb">About this Fragrance</h5>
+          <p class="accordion-panel">{{ product.metafields.custom.about_fragrances }}</p>
         </div>
-        <div class="grid__item">
+        <div class="grid__item accordion-item">
           <div class="specifications">
-            <h5 class="title">Specifications</h5>
-            <ul>
+            <h5 class="title accordion-thumb">Specifications</h5>
+            <ul class="accordion-panel">
               <li class="specifications-row">
                 <div class="row">
                   <span>Item :</span><span>1244650</span>
                 </div>
               </li>
-  
               <li class="specifications-row">
                 <div class="row">
                   <span>Burn Time :</span>
@@ -1090,11 +1089,9 @@
           </div>
         </div>
       </div>
-      <div class="grid">
-        <div class="left-content">
-          <h5 class="title">Description</h5>
-          <div>{{ product.description }}</div>
-        </div>
+      <div class="grid accordion-item">
+        <h5 class="title accordion-thumb">Description</h5>
+        <div class="accordion-panel">{{ product.description }}</div>
       </div>
     </div>
   </section>
