@@ -1035,7 +1035,93 @@
   <section class="shopify-section section">
     <div class="page-width">
       <h4 class="details-title" role="heading" aria-level="2">Product Details</h4>
-      
+      <!-- Display on desktop -->
+      <div class="flex-row small-hide product-detail">
+        <div class="left-content">
+          <h5 class="title">
+            About this Fragrance
+          </h5>
+          <p>{{ product.metafields.custom.about_this_fragrance }}</p>
+        </div>
+        <div class="right-content">
+          <div class="specifications">
+            <h5 class="title">Specifications</h5>
+            <ul>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Item :</span><span>1244650</span>
+                </div>
+              </li>
+  
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Burn Time :</span
+                  >
+                  <span>110 to 150 hours</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Wax :</span
+                  >
+                  <span 
+                    >Premium-grade paraffin wax</span
+                  >
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span
+                    
+                    >Scent :</span
+                  >
+                  <span 
+                    >Premium quality ingredients create distinctive true-to-life
+                    scents</span
+                  >
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span
+                    
+                    >Wick :</span
+                  >
+                  <span 
+                    >Wicks made with 100% natural fibers</span
+                  >
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span
+                    
+                    >Weight :</span
+                  >
+                  <span >22 oz</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span
+                    
+                    >Dimensions :</span
+                  >
+                  <span >3.85" x 7"</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="left-content">
+            <h5 class="title d-none d-lg-block" role="heading" aria-level="3">
+              Description
+            </h5>
+            <div class="value content">{{ product.description }}</div>
+          </div>
+        </div>
+      </div>
   
       <!-- Display only mobile -->
       <div class="medium-hide large-up-hide product-detail">
