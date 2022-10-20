@@ -574,7 +574,7 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }} class="flex-row quantity-and-add-cart-button-container">
+              <div {{ block.shopify_attributes }} class="grid quantity-and-add-cart-button-container">
                 <div class="select-quantity-container">
                   <select id="Quantity-{{ section.id }}" name="quantity" class="select-quantity" value="1" aria-label="Quantity:"  aria-hidden="false" form="{{ product_form_id }}">
                     <option value="1" selected="">1</option>
@@ -1036,7 +1036,7 @@
     <div class="page-width">
       <h4 class="details-title" role="heading" aria-level="2">Product Details</h4>
       <!-- Display on desktop -->
-      <div class="flex-row small-hide product-detail">
+      <div class="grid small-hide product-detail">
         <div class="left-content">
           <h5 class="title">
             About this Fragrance
@@ -1113,7 +1113,7 @@
             </ul>
           </div>
         </div>
-        <div class="flex-row">
+        <div class="grid">
           <div class="left-content">
             <h5 class="title">
               Description
