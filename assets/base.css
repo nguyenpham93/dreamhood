@@ -1170,13 +1170,13 @@ summary::-webkit-details-marker {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
-  margin:0;
+ 
   justify-content: space-between;
   -webkit-box-pack: justify;
-  
+
   padding: 0;
   list-style: none;
-  column-gap: var(--grid-mobile-horizontal-spacing);
+ /* column-gap: var(--grid-mobile-horizontal-spacing); */
   row-gap: var(--grid-mobile-vertical-spacing);
 }
 
