@@ -1173,13 +1173,13 @@ summary::-webkit-details-marker {
   -webkit-box-pack: justify;
   padding: 0;
   list-style: none;
- /* column-gap: var(--grid-mobile-horizontal-spacing); */
+  column-gap: var(--grid-mobile-horizontal-spacing);
   row-gap: var(--grid-mobile-vertical-spacing);
 }
 
 @media screen and (min-width: 750px) {
   .grid {
-    /* column-gap: var(--grid-desktop-horizontal-spacing); */
+    column-gap: var(--grid-desktop-horizontal-spacing);
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
