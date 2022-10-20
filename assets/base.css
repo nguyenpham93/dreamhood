@@ -1169,11 +1169,8 @@ summary::-webkit-details-marker {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
-  margin:0;
   justify-content: space-between;
   -webkit-box-pack: justify;
-
   padding: 0;
   list-style: none;
  /* column-gap: var(--grid-mobile-horizontal-spacing); */
@@ -1182,7 +1179,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 750px) {
   .grid {
-    column-gap: var(--grid-desktop-horizontal-spacing);
+    /* column-gap: var(--grid-desktop-horizontal-spacing); */
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
