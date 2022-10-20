@@ -574,7 +574,7 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }} class="grid quantity-and-add-cart-button-container">
+              <div {{ block.shopify_attributes }} class="grid .grid--gapless.grid quantity-and-add-cart-button-container">
                 <div class="select-quantity-container">
                   <select id="Quantity-{{ section.id }}" name="quantity" class="select-quantity" value="1" aria-label="Quantity:"  aria-hidden="false" form="{{ product_form_id }}">
                     <option value="1" selected="">1</option>
