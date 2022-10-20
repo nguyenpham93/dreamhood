@@ -34,18 +34,6 @@
   }
 }
 
-.flex-row{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin:0;
-  width:100%;
-  justify-content: space-between;
-  -webkit-box-pack: justify;
-}
-
 .select-quantity-container{
   width: 7.375rem;
   margin: 0 .5rem 0 0;
