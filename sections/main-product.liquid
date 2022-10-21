@@ -1170,8 +1170,39 @@
     </div>
   </section>
   <!-- Nguyen code Product Details end -->
-
-
+  <section class="shopify-section section">
+    <div class="page-width">
+      <div class="grid .grid--1-col grid--3-col-tablet grid--3-col-desktop">
+        <div class="grid__item">
+          <img
+            alt=""
+            srcset="
+              {{ product.metafields.custom.top_notes_image }};width=246   246w,
+              {{ product.metafields.custom.top_notes_image }};width=493   493w,
+              {{ product.metafields.custom.top_notes_image }};width=600   600w,
+              {{ product.metafields.custom.top_notes_image }};width=713   713w,
+              {{ product.metafields.custom.top_notes_image }};width=823   823w,
+              {{ product.metafields.custom.top_notes_image }};width=990   990w,
+              {{ product.metafields.custom.top_notes_image }};width=1100 1100w,
+              {{ product.metafields.custom.top_notes_image }};width=1206 1206w,
+              {{ product.metafields.custom.top_notes_image }};width=1346 1346w,
+              {{ product.metafields.custom.top_notes_image }};width=1426 1426w,
+              {{ product.metafields.custom.top_notes_image }};width=1646 1646w,
+              {{ product.metafields.custom.top_notes_image }};width=1946 1946w
+            "
+            sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)"
+          />
+        </div>
+        <div class="grid__item">
+          
+        </div>
+        <div class="grid__item">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Nguyen code: Fragrance Notes Images -->
   
 
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
