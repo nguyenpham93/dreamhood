@@ -1177,13 +1177,13 @@
           <img
             alt=""
             srcset="
-              {% if product.metafields.custom.top_notes_image.width >= 240 %}{{ product.metafields.custom.top_notes_image | image_url: width: 240 }} 240w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 480 %}{{ product.metafields.custom.top_notes_image | image_url: width: 480 }} 480w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 960 %}{{ product.metafields.custom.top_notes_image | image_url: width: 960 }} 960w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 1236 %}{{ product.metafields.custom.top_notes_image | image_url: width: 1236 }} 1236w,{% endif %}     
-              {{ product.metafields.custom.top_notes_image | image_url }} {{ product.metafields.custom.top_notes_image.width }}w
+              {% if product.metafields.custom.top_notes_image.width >= 240 %}{{ product.metafields.custom.top_notes_image.src | image_url: '240x' }} 240w,{% endif %}
+              {% if product.metafields.custom.top_notes_image.width >= 480 %}{{ product.metafields.custom.top_notes_image.src | image_url: '480x' }} 480w,{% endif %}
+              {% if product.metafields.custom.top_notes_image.width >= 960 %}{{ product.metafields.custom.top_notes_image.src | image_url: '960x' }} 960w,{% endif %}
+              {% if product.metafields.custom.top_notes_image.width >= 1236 %}{{ product.metafields.custom.top_notes_image.src | image_url: '1236x' }} 1236w,{% endif %}   
+              {{ product.metafields.custom.top_notes_image.src | image_url }} {{ product.metafields.custom.top_notes_image.width }}w
             "
-            src="{{ product.metafields.custom.top_notes_image | image_url: width: 480 }}"
+            src="{{ product.metafields.custom.top_notes_image.src | image_url: '480x' }}"
             sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)"
           />
         </div>
