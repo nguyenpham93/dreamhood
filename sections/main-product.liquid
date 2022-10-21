@@ -1174,26 +1174,11 @@
     <div class="page-width">
       <div class="grid .grid--1-col grid--1-col-tablet grid--1-col-desktop">
         <div class="grid__item"> {{ product.metafields.custom.top_notes_image.width }} ABCD
-          <!-- <img
+          <img
             alt=""
-            srcset="
-              {% if product.metafields.custom.top_notes_image.width >= 240 %}{{ product.metafields.custom.top_notes_image | image_url: '240' }} 240w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 480 %}{{ product.metafields.custom.top_notes_image | image_url: '480' }} 480w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 960 %}{{ product.metafields.custom.top_notes_image | image_url: '960' }} 960w,{% endif %}
-              {% if product.metafields.custom.top_notes_image.width >= 1236 %}{{ product.metafields.custom.top_notes_image | image_url: '1236' }} 1236w,{% endif %}   
-              {{ product.metafields.custom.top_notes_image | image_url }} {{ product.metafields.custom.top_notes_image.width }}w
-            "
-            src="{{ product.metafields.custom.top_notes_image | image_tag: '480' }}"
-            sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)"
-          /> -->
-          <img 
-            class="article__grid-image lazyload"
-            src="{{ product.metafields.custom.top_notes_image | img_url }}"
-            data-src="{{ img_url }}"
-            data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
-            data-aspectratio="{{ product.metafields.custom.top_notes_image.aspect_ratio }}"
-            data-sizes="auto"
-            alt="{{ product.metafields.custom.top_notes_image.alt | escape }}">
+            src="{{ product.metafields.custom.top_notes_image | image_url: width: 200 | image_tag }}"
+          /> 
+          
         </div>
         <div class="grid__item">
         </div>
