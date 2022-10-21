@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "c4b26480-6b7d-43fb-bb22-dd51839a9f55": {
+          "type": "romance",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -27,6 +32,7 @@
       },
       "block_order": [
         "title",
+        "c4b26480-6b7d-43fb-bb22-dd51839a9f55",
         "price",
         "quantity_selector",
         "buy_buttons"
