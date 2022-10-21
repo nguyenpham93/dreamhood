@@ -234,7 +234,7 @@
                         {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | image_url: width: 162 }} 162w,{% endif %}
                         {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | image_url: width: 208 }} 208w,{% endif %}
                         {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | image_url: width: 324 }} 324w,{% endif %}
-                        {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | image_url: width: 416 }} 416w,{% endif %},
+                        {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | image_url: width: 416 }} 416w,{% endif %}
                         {{ featured_media.preview_image | image_url }} {{ media.preview_image.width }}w
                       "
                       src="{{ featured_media | image_url: width: 416 }}"
@@ -1176,36 +1176,18 @@
         <div class="grid__item"> {{ product.metafields.custom.top_notes_image.width }}
           
          <!-- <picture>
-            <source srcset="{{ product.metafields.custom.top_notes_image | image_url: width: 240 }} 240w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 480 }} 480w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 960 }} 960w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 1109 }} 1109w" type="image/jpeg" sizes="(min-width: 750px) 1109px, 480px">
+            <source srcset="
+            {{ product.metafields.custom.top_notes_image | image_url: width: 246 }} 246w,
+            {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 493w,
+            {{ product.metafields.custom.top_notes_image | image_url: width: 600 }} 600w,
+            {{ product.metafields.custom.top_notes_image | image_url: width: 990 }} 990w,
+            {{ product.metafields.custom.top_notes_image | image_url: width: 1100 }} 1100w,
+          {{ product.metafields.custom.top_notes_image | image_url: width: 1346 }} 1346w" 
+          type="image/jpeg" sizes="(min-width: 750px) 1109px, 480px">
             <img alt="" style="box-sizing: border-box; padding: 8px; max-width: 100%;" 
-           src="{{ product.metafields.custom.top_notes_image | image_url: width: 480 }}" title="">
+           src="{{ product.metafields.custom.top_notes_image | image_url: width: 480 }}" title="" sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
           </picture> -->
 
-
-          <img
-                      
-                      srcset="
-                        {{ featured_media.preview_image | image_url: width: 246 }} 246w,
-                        {% if featured_media.preview_image.width >= 74 %}{{ featured_media.preview_image | image_url: width: 74 }} 74w,{% endif %}
-                        {% if featured_media.preview_image.width >= 104 %}{{ featured_media.preview_image | image_url: width: 104 }} 104w,{% endif %}
-                        {% if featured_media.preview_image.width >= 162 %}{{ featured_media.preview_image | image_url: width: 162 }} 162w,{% endif %}
-                        {% if featured_media.preview_image.width >= 208 %}{{ featured_media.preview_image | image_url: width: 208 }} 208w,{% endif %}
-                        {% if featured_media.preview_image.width >= 324 %}{{ featured_media.preview_image | image_url: width: 324 }} 324w,{% endif %}
-                        {% if featured_media.preview_image.width >= 416 %}{{ featured_media.preview_image | image_url: width: 416 }} 416w,{% endif %},
-                        {{ featured_media.preview_image | image_url }} {{ media.preview_image.width }}w
-                      "
-                      src="{{ featured_media | image_url: width: 416 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3)"
-                      alt="{{ featured_media.alt | escape }}"
-                      height="208"
-                      width="208"
-                      loading="lazy"
-                    >
-
-          
 
   
         </div>
