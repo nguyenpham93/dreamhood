@@ -1174,6 +1174,7 @@
   <!-- Nguyen code: Fragrance Notes Images start -->
   <section class="shopify-section section">
     <div class="page-width">
+      <h2>Fragrance Notes</h2>
       <div class="grid grid--1-col grid--3-col-tablet grid--3-col-desktop">
         <div class="grid__item"> {{ product.metafields.custom.top_notes_image.width }}
           
@@ -1189,6 +1190,10 @@
             <img alt="" style="box-sizing: border-box; padding: 8px; max-width: 100%;" 
            src="{{ product.metafields.custom.top_notes_image | image_url: width: 1346 }}" title="" >
           </picture>
+          <div class="fragrance-notes-description">
+            <strong>Top Notes: </strong>
+            {{ product.metafields.custom.top_note }}
+          </div>
 
         </div>
         <div class="grid__item">
