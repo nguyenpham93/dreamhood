@@ -1174,10 +1174,8 @@
     <div class="page-width">
       <div class="grid .grid--1-col grid--1-col-tablet grid--1-col-desktop">
         <div class="grid__item"> {{ product.metafields.custom.top_notes_image.width }} ABCD
-          <img
-            alt=""
-            src="{{ product.metafields.custom.top_notes_image | image_url: width: 200 | image_tag }}"
-          /> 
+          
+          {{ product.metafields.custom.top_notes_image | image_url: width: 200 | image_tag }}
           
         </div>
         <div class="grid__item">
