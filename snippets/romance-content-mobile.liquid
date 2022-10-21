@@ -1,4 +1,4 @@
-<div class ="romance-content medium-hide large-up-hide">
+<div class ="romance-content medium-hide large-up-hide {{ block.shopify_attributes }}">
   <div class="romance-text-all">
     <div id="truncated" class="text12">{{ product.metafields.custom.romance_content | truncatewords: 12, " ... <a class='read-more-romance'>Read More</a>" }}</div>
     <div id="fullDescription" class="text12" style="display: none">{{ product.metafields.custom.romance_content }} <a class='read-less-romance'>Read Less</a></div>
