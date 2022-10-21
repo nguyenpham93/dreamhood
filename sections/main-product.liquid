@@ -1176,20 +1176,20 @@
         <div class="grid__item">
           <img
             alt=""
-            srcset="
-              {{ product.metafields.custom.top_notes_image | img_tag }} 246w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 493w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 600w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 713w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 823w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 990w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1100w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1206w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1346w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1426w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1646w,
-              {{ product.metafields.custom.top_notes_image | img_tag }} 1946w
+              {{ product.metafields.custom.top_notes_image | image_url: width: 246 }} 246w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 493w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 600w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 713w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 823w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 990w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1100w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1206w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1346w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1426w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1646w,
+              {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 1946w
             "
+            src="{{ product.metafields.custom.top_notes_image | image_url: width: 416 }}"
             sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)"
           />
         </div>
