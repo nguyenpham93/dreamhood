@@ -93,6 +93,10 @@
   background-color: #f2f2f2;
 }
 
+.fragrance-notes-section .grid__item{
+  padding:10px;
+}
+
 /* end nguyen css*/
 @media screen and (min-width: 750px) {
   .product--thumbnail .product__media-gallery,
