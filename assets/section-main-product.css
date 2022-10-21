@@ -96,7 +96,9 @@
 .fragrance-notes-section .grid__item{
   padding:10px;
 }
-
+.wc_review_form_btns > ul{
+  text-align:center;
+}
 .wc_review_form_btns > ul > li{
   width: 49%;
 } 
