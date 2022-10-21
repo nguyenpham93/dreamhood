@@ -1176,10 +1176,7 @@
         <div class="grid__item"> {{ product.metafields.custom.top_notes_image.width }}
           
           <picture>
-            <source srcset="{{ product.metafields.custom.top_notes_image | image_url: width: 240 }} 240w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 480 }} 480w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 960 }} 960w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 1109 }} 1109w" type="image/jpeg" sizes="(min-width: 750px) 1109px, 480px">
+            <source type="image/jpeg" sizes="(min-width: 750px) 1109px, 480px">
             <img alt="" style="box-sizing: border-box; padding: 8px; max-width: 100%;" 
            src="{{ product.metafields.custom.top_notes_image | image_url: width: 480 }}" title="">
           </picture>
