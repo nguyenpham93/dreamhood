@@ -1255,7 +1255,8 @@
 
 
 
-  const selectVariantByClickingImage = {
+  
+    const selectVariantByClickingImage = {
 
   // Create variant images from productJson object
 
@@ -1264,68 +1265,27 @@
     const variantImageObject = {};
 
     product.variants.forEach((variant) => {
-
-      if (
-
-        typeof variant.featured_image !== 'undefined' &&
-
-        variant.featured_image !== null
-
-      ) {
-
-        const variantImage = variant.featured_image.src
-
-          .split('?')[0]
-
-          .replace(/http(s)?:/, '');
-
-        variantImageObject[variantImage] =
-
-          variantImageObject[variantImage] || {};
-
+      if (typeof variant.featured_image !== 'undefined' && variant.featured_image !== null) {
+        const variantImage = variant.featured_image.src.split('?')[0].replace(/http(s)?:/, '');
+        variantImageObject[variantImage] = variantImageObject[variantImage] || {};
         product.options.forEach((option, index) => {
-
           const optionValue = variant.options[index];
-
           const optionKey = `option-${index}`;
-
-          if (
-
-            typeof variantImageObject[variantImage][optionKey] === 'undefined'
-
-          ) {
-
-            variantImageObject[variantImage][optionKey] = optionValue;
+          if (typeof variantImageObject[variantImage][optionKey] === 'undefined') {
 
           } else {
-
             const oldValue = variantImageObject[variantImage][optionKey];
-
             if (oldValue !== null && oldValue !== optionValue) {
-
               variantImageObject[variantImage][optionKey] = null;
-
             }
-
           }
-
         });
-
       }
-
- 
-
-  },
+    })},
 
   _updateVariant: function (event, id, product, variantImages) {
 
-    const arrImage = event.target.src
-
-      .split('?')[0]
-
-      .replace(/http(s)?:/, '')
-
-      .split('.');
+    const arrImage = event.target.src.split('?')[0].replace(/http(s)?:/, '').split('.');
 
     const strExtention = arrImage.pop();
 
@@ -1409,13 +1369,13 @@
 
   },
 
-};
+  };
 
-if (document.readyState !== 'loading') {
+  if (document.readyState !== 'loading') {
 
   selectVariantByClickingImage._selectVariant();
 
-} else {
+  } else {
 
   document.addEventListener(
 
@@ -1425,7 +1385,9 @@ if (document.readyState !== 'loading') {
 
   );
 
-}
+  };
+
+
 </script>
 <!-- End Nguyen code -->
                   
