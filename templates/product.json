@@ -228,6 +228,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ee9314d0-74f0-4e7e-adf7-c72ab373063f": {
+      "type": "fragrance-notes-images",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -239,6 +244,7 @@
     "16656436731fd65837",
     "image-with-text",
     "multicolumn",
-    "a1babe03-c2f7-4d30-acf8-0d3987e7fc5f"
+    "a1babe03-c2f7-4d30-acf8-0d3987e7fc5f",
+    "ee9314d0-74f0-4e7e-adf7-c72ab373063f"
   ]
 }
