@@ -135,6 +135,11 @@
         "padding_bottom": 36
       }
     },
+    "test": {
+      "type": "test",
+      "settings": {
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -239,6 +244,7 @@
     "16656436731fd65837",
     "image-with-text",
     "multicolumn",
+    "test",
     "a1babe03-c2f7-4d30-acf8-0d3987e7fc5f"
   ]
 }
