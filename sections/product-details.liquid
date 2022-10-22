@@ -1,8 +1,160 @@
+<!-- Nguyen code Product Details start -->
+    <div class="page-width">
+      <h4 class="details-title" role="heading" aria-level="2">Product Details</h4>
+      <!-- Display on Desktop -->
+      <div class="grid product-detail grid--2-col-tablet grid--2-col-desktop small-hide">
+        <div class="grid__item">
+          <h5 class="title">About this Fragrance</h5>
+          <p>{{ product.metafields.custom.about_fragrances }}</p>
+        </div>
+        <div class="grid__item">
+          <div class="specifications">
+            <h5 class="title">Specifications</h5>
+            <ul>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Item :</span><span>1244650</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Burn Time :</span>
+                  <span>110 to 150 hours</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Wax :</span>
+                  <span>Premium-grade paraffin wax</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Scent :</span>
+                  <span>Premium quality ingredients create distinctive true-to-life scents</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Wick :</span>
+                  <span>Wicks made with 100% natural fibers</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Weight :</span>
+                  <span >22 oz</span>
+                </div>
+              </li>
+              <li class="specifications-row">
+                <div class="row">
+                  <span>Dimensions :</span>
+                  <span >3.85" x 7"</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="grid product-detail grid--2-col-tablet grid--2-col-desktop small-hide">
+        <div class="grid__item">
+          <h5 class="title">Description</h5>
+            <div>{{ product.description }}</div>
+          </div>
+      </div>
+
+      <!-- Display on mobile -->
+      <div class="medium-hide large-up-hide product-detail">
+        <ul class="accordion">
+          <li class="accordion-item">
+            <h3 class="accordion-thumb">About this Fragrance</h3>
+            <p class="accordion-panel">
+              {{ product.metafields.custom.about_fragrances }}
+            </p>
+          </li>
+          <li class="accordion-item">
+            <h3 class="accordion-thumb">Specifications</h3>
+            <div class="accordion-panel">
+              <div class="specifications">
+                <h5 class="title" role="heading" aria-level="3">
+                  Specifications
+                </h5>
+                <ul>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Item :</span>
+                      <span>1244650</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Burn Time :</span>
+                      <span>110 to 150 hours</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Wax :</span>
+                      <span >Premium-grade paraffin wax</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Scent :</span>
+                      <span>Premium quality ingredients create distinctive true-to-life scents</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Wick :</span>
+                      <span>Wicks made with 100% natural fibers</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Weight :</span>
+                      <span>22 oz</span>
+                    </div>
+                  </li>
+                  <li class="specifications-row">
+                    <div>
+                      <span>Dimensions :</span>
+                      <span>3.85" x 7"</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="accordion-item">
+            <h3 class="accordion-thumb">Description</h3>
+            <div class="accordion-panel">{{ product.description }}</div>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  <!-- Nguyen code Product Details end -->
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Product Details",
+  "tag": "section",
+  "class": "my-product-details",
+  "limit": 1,
+  "presets": [
+    {
+      "name": "Product Details"
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "product-detail-section"
+    }
+  },
+  "templates": ["article", "index", "page", "product"]
+}
 {% endschema %}
 
 {% stylesheet %}
