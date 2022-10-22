@@ -692,7 +692,18 @@
                 <!-- Nguyen code freeship 50$ end -->
 
               <!-- Start Nguyen Fragrance Note-->
-                {% render 'fragrance-notes' %}
+                <div class="details">
+                  Fragrance Notes:
+                  <ul class="fragrance-note-list">
+                    <li class="text12">Top: {{ product.metafields.custom.top_note }}</li>
+                    <li class="text12">Mid: {{ product.metafields.custom.mid_note }}</li>
+                    <li class="text12">Base: {{ product.metafields.custom.base_note }}</li>
+                    <li class="text12">
+                      Top note is the initial impression of the fragrance, middle note is the
+                      main body of the scent and base is its final impression.
+                    </li>
+                  </ul>
+                </div>
               <!-- End Nguyen Fragrance Note-->
 
               <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
@@ -1271,11 +1282,6 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
-    },
-    {
-      "type": "romance",
-      "name": "romance-content",
       "limit": 1
     },
     {
