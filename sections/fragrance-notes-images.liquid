@@ -4,8 +4,8 @@
       <h2>Fragrance Notes</h2>
       <div class="grid grid--1-col grid--3-col-tablet grid--3-col-desktop">
         
-        <div class="grid__item"> 
-         <picture>
+        <!-- <div class="grid__item"> 
+          <picture>
             <source srcset="
             {{ product.metafields.custom.top_notes_image | image_url: width: 246 }} 246w,
             {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 493w,
@@ -59,7 +59,21 @@
             <strong>Base Notes: </strong>
             {{ product.metafields.custom.base_note }}
           </div>
+        </div> -->
+
+        <div class="grid__item"> 
+          <img alt="" style="box-sizing: border-box; max-width: 100%; width: 100%;" 
+           src="{{ product.metafields.custom.base_notes_image | image_url: width: 1346 }}" title="" >
         </div>
+        <div class="grid__item"> 
+          <img alt="" style="box-sizing: border-box; max-width: 100%; width: 100%;" 
+           src="{{ product.metafields.custom.base_notes_image | image_url: width: 1346 }}" title="" >
+        </div>
+        <div class="grid__item"> 
+          <img alt="" style="box-sizing: border-box; max-width: 100%; width: 100%;" 
+           src="{{ product.metafields.custom.base_notes_image | image_url: width: 1346 }}" title="" >
+        </div>
+        
       </div>
     </div>
   <!-- Nguyen code: Fragrance Notes Images end -->
