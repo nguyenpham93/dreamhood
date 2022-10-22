@@ -497,17 +497,7 @@
                             {% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            <!-- {{ value }} -->
-                            <!-- Nguyen code: select variant by image -->
-
-                            <div class="image-holder" aria-hidden="true">
-                              <img class="tile-image" src="{{ value.featured_image.src }}" alt="cranberry chutney signature five wick candle">
-                            </div>
-                            <div class="product-link text-center text12 bold">
-                                <p class="m-0 text-break">Signature 5-Wick Candle</p>
-                            </div>
-
-                          
+                             {{ value }}  
                           </label>
                         {%- endfor -%}
                       </fieldset>
