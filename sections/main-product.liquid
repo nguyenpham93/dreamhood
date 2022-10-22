@@ -1172,72 +1172,7 @@
   </section>
   <!-- Nguyen code Product Details end -->
 
-  <!-- Nguyen code: Fragrance Notes Images start -->
-  <section class="shopify-section section fragrance-notes-section">
-    <div class="page-width">
-      <h2>Fragrance Notes</h2>
-      <div class="grid grid--1-col grid--3-col-tablet grid--3-col-desktop">
-        
-        <div class="grid__item"> 
-         <picture>
-            <source srcset="
-            {{ product.metafields.custom.top_notes_image | image_url: width: 246 }} 246w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 493 }} 493w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 600 }} 600w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 990 }} 990w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 1100 }} 1100w,
-            {{ product.metafields.custom.top_notes_image | image_url: width: 1346 }} 1346w" 
-          type="image/jpeg" sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
-            <img alt="" style="box-sizing: border-box; max-width: 100%;" 
-           src="{{ product.metafields.custom.top_notes_image | image_url: width: 1346 }}" title="" >
-          </picture>
-          <div class="fragrance-notes-description">
-            <strong>Top Notes: </strong>
-            {{ product.metafields.custom.top_note }}
-          </div>
-        </div>
-        
-        <div class="grid__item"> 
-         <picture>
-            <source srcset="
-            {{ product.metafields.custom.mid_note_image | image_url: width: 246 }} 246w,
-            {{ product.metafields.custom.mid_note_image | image_url: width: 493 }} 493w,
-            {{ product.metafields.custom.mid_note_image | image_url: width: 600 }} 600w,
-            {{ product.metafields.custom.mid_note_image | image_url: width: 990 }} 990w,
-            {{ product.metafields.custom.mid_note_image | image_url: width: 1100 }} 1100w,
-            {{ product.metafields.custom.mid_note_image | image_url: width: 1346 }} 1346w" 
-          type="image/jpeg" sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
-            <img alt="" style="box-sizing: border-box; max-width: 100%;" 
-           src="{{ product.metafields.custom.mid_notes_image | image_url: width: 1346 }}" title="" >
-          </picture>
-          <div class="fragrance-notes-description">
-            <strong>Mid Notes: </strong>
-            {{ product.metafields.custom.mid_note }}
-          </div>
-        </div>
-
-        <div class="grid__item"> 
-         <picture>
-            <source srcset="
-            {{ product.metafields.custom.base_note_image | image_url: width: 246 }} 246w,
-            {{ product.metafields.custom.base_note_image | image_url: width: 493 }} 493w,
-            {{ product.metafields.custom.base_note_image | image_url: width: 600 }} 600w,
-            {{ product.metafields.custom.base_note_image | image_url: width: 990 }} 990w,
-            {{ product.metafields.custom.base_note_image | image_url: width: 1100 }} 1100w,
-            {{ product.metafields.custom.base_note_image | image_url: width: 1346 }} 1346w" 
-          type="image/jpeg" sizes="(min-width: 1200px) 715px, (min-width: 990px) calc(65.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw / 1 - 4rem)">
-            <img alt="" style="box-sizing: border-box; max-width: 100%;" 
-           src="{{ product.metafields.custom.base_notes_image | image_url: width: 1346 }}" title="" >
-          </picture>
-          <div class="fragrance-notes-description">
-            <strong>Base Notes: </strong>
-            {{ product.metafields.custom.base_note }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Nguyen code: Fragrance Notes Images end -->
+  
   
 
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
