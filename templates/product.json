@@ -66,6 +66,16 @@
         "padding_bottom": 28
       }
     },
+    "8698a55d-ee78-463b-8eda-029439d324d9": {
+      "type": "product-details",
+      "settings": {
+      }
+    },
+    "ee9314d0-74f0-4e7e-adf7-c72ab373063f": {
+      "type": "fragrance-notes-images",
+      "settings": {
+      }
+    },
     "166564369528caed4a": {
       "type": "apps",
       "settings": {
@@ -228,23 +238,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "ee9314d0-74f0-4e7e-adf7-c72ab373063f": {
-      "type": "fragrance-notes-images",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
+    "8698a55d-ee78-463b-8eda-029439d324d9",
+    "ee9314d0-74f0-4e7e-adf7-c72ab373063f",
     "166564369528caed4a",
     "1665643723b41d58d7",
     "16656421419ee54853",
     "16656436731fd65837",
     "image-with-text",
     "multicolumn",
-    "a1babe03-c2f7-4d30-acf8-0d3987e7fc5f",
-    "ee9314d0-74f0-4e7e-adf7-c72ab373063f"
+    "a1babe03-c2f7-4d30-acf8-0d3987e7fc5f"
   ]
 }
