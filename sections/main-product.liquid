@@ -402,11 +402,7 @@
                   </div>
                 </details>
               </div>
-            
-            
-
-                
-            
+      
             {%- when 'popup' -%}
               <modal-opener
                 class="product-popup-modal__opener no-js-hidden quick-add-hidden"
@@ -688,11 +684,12 @@
               </div>
 
               <!-- Nguyen code freeship 50$ start -->
-                {% render 'free-ship-tip' %}
+              {% render 'free-ship-tip' %}
                 <!-- Nguyen code freeship 50$ end -->
 
               <!-- Start Nguyen Fragrance Note-->
-                <div class="details">
+              {%- when 'fragrance_notes_des' -%}
+                <div class="details" {{ block.shopify_attributes }}>
                   Fragrance Notes:
                   <ul class="fragrance-note-list">
                     <li class="text12">Top: {{ product.metafields.custom.top_note }}</li>
