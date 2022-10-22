@@ -29,6 +29,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "d500eb3b-74ff-45b1-a774-31f5584aab80": {
+          "type": "shipping-free-tip",
+          "settings": {
+          }
+        },
         "90ccac00-da5b-4048-b2e0-760a58192e16": {
           "type": "fragrance_notes_des",
           "settings": {
@@ -41,6 +46,7 @@
         "price",
         "quantity_selector",
         "buy_buttons",
+        "d500eb3b-74ff-45b1-a774-31f5584aab80",
         "90ccac00-da5b-4048-b2e0-760a58192e16"
       ],
       "settings": {
