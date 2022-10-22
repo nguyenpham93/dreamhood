@@ -1,54 +1,20 @@
+<div>MYTEST</div>
 {% schema %}
-{
-  "name": "mySlideshow",
-  "tag": "section",
-  "class": "slideshow",
-  "limit": 1,
-  "settings": [
-    {
+  {
+    "name": "Fragrance Notes Images",
+    "tag": "section",
+    "settings": [
+      {
       "type": "text",
-      "id": "title",
-      "label": "Slideshow"
+      "id": "fni",
+      "label": "Fragrance Notes Images 2"
     }
-  ],
-  "max_blocks": 5,
-  "blocks": [
-     {
-       "name": "Slide",
-       "type": "slide",
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         }
-       ]
-     }
-  ],
-  "presets": [
-    {
-      "name": "goSlideshow",
-      "settings": {
-        "title": "Slideshow"
-      },
-      "blocks": [
-        {
-          "type": "slide"
-        },
-        {
-          "type": "slide"
-        }
-      ]
-    }
-  ],
-  "locales": {
-    "en": {
-      "title": "Slideshow"
-    },
-    "fr": {
-      "title": "Diaporama"
-    }
-  },
-  "templates": ["article", "index", "page", "product"]
-}
+    ]
+  }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
