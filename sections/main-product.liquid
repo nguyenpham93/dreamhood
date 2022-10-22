@@ -381,9 +381,16 @@
                   {{ form | payment_terms }}
                 {%- endform -%}
               </div>
+
+            {% when 'promotion' %}
+            <div class="promotion-msg" {{ block.shopify_attributes }}>
+              <span class="promo-msg">Buy 1, Get 1 50% Off: Full-Priced Large Jars and Tumblers</span>
+            </div>
+    
             
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
+            
             {%- when 'collapsible_tab' -%}
               <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -685,7 +692,7 @@
 
               <!-- Nguyen code freeship 50$ start -->
               {%- when 'shipping-free-tip' -%}
-                <div class="shipping-free-tip">
+                <div class="shipping-free-tip" {{ block.shopify_attributes }}>
                     <p>
                       <img alt="" height="16" src="https://cdn.shopify.com/s/files/1/0668/9482/3649/files/Shipping_Delivery.jpg?v=1665656392" title="" width="15">&nbsp;
                       Free economy shipping on orders $50+. Easy returns.
@@ -1309,6 +1316,11 @@
     {
       "type": "shipping-free-tip",
       "name": "shipping-free-tip",
+      "limit": 1
+    },
+    {
+      "type": "promotion",
+      "name": "promotion",
       "limit": 1
     },
     {
