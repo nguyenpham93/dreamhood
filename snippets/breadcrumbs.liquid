@@ -12,11 +12,11 @@
 
   {% elsif template contains 'product' %}
 
-    {% if collections.url %}
+    {% if collection.url %}
 
       <span aria-hidden="true">&rsaquo;</span>
 
-      {{ collections.title | link_to: collections.url }}
+      {{ collection.title | link_to: collection.url }}
 
     {% endif %}
 
