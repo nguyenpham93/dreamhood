@@ -599,8 +599,14 @@ a.product__text {
     background-color: rgba(var(--color-foreground), 0.2);
   }
 
+  /* Nguyen edit
   .product__media-list .product__media-item {
     width: calc(100% - 3rem - var(--grid-mobile-horizontal-spacing));
+  }
+  */
+  /* Nguyen code */
+  .product__media-list .product__media-item{
+    width:100%;
   }
 
   .product--mobile-columns .product__media-item {
