@@ -1,21 +1,54 @@
-
 {% schema %}
-  {
-    "name": "Fragrance Notes Images",
-    "tag": "section",
-    "settings": [
-      {
+{
+  "name": "Slideshow2222222222",
+  "tag": "section",
+  "class": "slideshow",
+  "limit": 1,
+  "settings": [
+    {
       "type": "text",
-      "id": "fni",
-      "label": "Fragrance Notes Images 2"
+      "id": "title",
+      "label": "Slideshow"
     }
-    ],
-    "templates": ["article", "index", "page", "product"]
-  }
+  ],
+  "max_blocks": 5,
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Slideshow",
+      "settings": {
+        "title": "Slideshow"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ],
+  "locales": {
+    "en": {
+      "title": "Slideshow"
+    },
+    "fr": {
+      "title": "Diaporama"
+    }
+  },
+  "templates": ["article", "index", "page", "product"]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
