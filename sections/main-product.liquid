@@ -1204,7 +1204,10 @@
 <script>
   $('.read-more-romance').on('click', function(){
     console.log('click');
-    $('#truncated').display = "none";
+    $('#truncated').fadeOut(200, function(){
+      console.log('2click');
+      $('#fullDescription').fadeIn(300);
+    })
   });
   $('.read-less-romance').on('click', function(){
     $('#fullDescription').fadeOut(200, function(){ 
