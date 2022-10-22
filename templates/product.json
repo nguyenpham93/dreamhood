@@ -28,6 +28,11 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "90ccac00-da5b-4048-b2e0-760a58192e16": {
+          "type": "fragrance_notes_des",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -35,7 +40,8 @@
         "c4b26480-6b7d-43fb-bb22-dd51839a9f55",
         "price",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "90ccac00-da5b-4048-b2e0-760a58192e16"
       ],
       "settings": {
         "enable_sticky_info": true,
