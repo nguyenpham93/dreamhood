@@ -1202,16 +1202,26 @@
 
    <!-- Nguyen code -->
 <script>
+  
   $('.read-more-romance').on('click', function(){
-    console.log('click');
-    $('#truncated').fadeOut(200, "linear", function(){
-      console.log('2click');
-      $('#fullDescription').fadeIn(300);
+    $('#truncated').fadeOut(100, function(){
+      $('#fullDescription').fadeIn(100);
     })
   });
   $('.read-less-romance').on('click', function(){
-    $('#fullDescription').fadeOut(200, function(){ 
-      $('#truncated').fadeIn(300);
+    $('#fullDescription').fadeOut(100, function(){ 
+      $('#truncated').fadeIn(100);
+    })
+  });
+
+  $('.read-more-romance-mobile').on('click', function(){
+    $('#truncated-mobile').fadeOut(100, function(){
+      $('#fullDescription-mobile').fadeIn(100);
+    })
+  });
+  $('.read-less-romance-mobile').on('click', function(){
+    $('#fullDescription-mobile').fadeOut(100, function(){ 
+      $('#truncated-mobile').fadeIn(100);
     })
   });
 </script>
