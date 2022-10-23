@@ -157,6 +157,10 @@ a:hover{
 .grid{
   justify-content: left !important;
 }
+
+.variant input[checked]{
+  border:1px solid black;
+}
 /* End Nguyen custom*/
 
 :root,
