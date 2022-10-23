@@ -154,6 +154,9 @@ a:hover{
   padding:0 !important;
 }
 
+.variant.grid{
+  justify-content: left;
+}
 /* End Nguyen custom*/
 
 :root,
