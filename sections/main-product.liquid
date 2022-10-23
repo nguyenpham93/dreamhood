@@ -501,12 +501,12 @@
                               {% endif %}
                             >
                             <label style="background-color:unset; border:unset;" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }} ">
-                              <div class="image-holder" aria-hidden="true">
-                                <img class="tile-image" src="{{ product.variants[forloop.index0].featured_media | image_url:width:180,height:180 }}" style="height: 7rem; padding: 0.25rem 0.25rem 0;" alt="cranberry chutney signature five wick candle">
+                              <div class="image-holder">
+                                <img src="{{ product.variants[forloop.index0].featured_media | image_url:width:180,height:180 }}" style="height: 7rem; padding: 0.25rem 0.25rem 0;" alt="cranberry chutney signature five wick candle">
                               </div>
-                              <div class="product-link text-center text12 bold">
-                                  <p class="m-0 text-break">{{ product.variants[forloop.index0].title }}</p>
-                              </div>
+                              
+                                  <p>{{ product.variants[forloop.index0].title }}</p>
+                              
                               </label>
                           </div>
                         {%- endfor -%}
