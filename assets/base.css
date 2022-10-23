@@ -158,7 +158,7 @@ a:hover{
   justify-content: left !important;
 }
 
-.variant input:checked label{
+.variant input:checked+label{
   border:1px solid black;
 }
 /* End Nguyen custom*/
