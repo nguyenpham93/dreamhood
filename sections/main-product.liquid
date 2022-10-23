@@ -1260,7 +1260,12 @@
       $('#truncated-mobile').fadeIn(100);
     })
   });
-  
+
+
+  $('.variant label').on('click', function(e){
+    e.preventDefault();
+    e.stopPropagation();
+  });
 </script>
 <!-- End Nguyen code -->
                   
