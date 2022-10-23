@@ -499,7 +499,7 @@
                               name="{{ option.name }}"
                               value="{{ variant.title | escape }}"
                               form="{{ product_form_id }}"
-                              {% if option.selected_value == variant.title %}
+                              {% if option.selected_value == value %}
                                 checked
                               {% endif %}
                             >
@@ -509,7 +509,7 @@
                                 <img class="tile-image" src="{{ variant.featured_media | image_url:width:180,height:180 }}" style="height: 7rem; padding: 0.25rem 0.25rem 0;" alt="cranberry chutney signature five wick candle">
                               </div>
                               <div class="product-link text-center text12 bold">
-                                  <p class="m-0 text-break">Signature 5-Wick Candle</p>
+                                  <p class="m-0 text-break">{{ variant.title }}</p>
                               </div>
                             
                               </label>
