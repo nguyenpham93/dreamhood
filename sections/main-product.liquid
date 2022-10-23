@@ -491,27 +491,32 @@
                       <fieldset class="js product-form__input">
                         <legend class="form__label"> {{ option.name }} </legend>
                         <div class="variant grid grid--3-col grid--3-col-tablet grid--3-col-desktop">
-                        {%- for variant in product.variants -%}
+                      {%- for value in option.values -%}
+                    
                           <div class="grid__item">
                             <input
                               type="radio"
                               id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                               name="{{ option.name }}"
-                              value="{{ variant.title | escape }}"
+                              value="{{ value | escape }}"
                               form="{{ product_form_id }}"
-                              {% if option.selected_value == variant.title %}
+                              {% if option.selected_value == value %}
                                 checked
                               {% endif %}
                             >
                             <label style="background-color:unset; border:unset;" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }} ">
-  
+                              <!--  {%- for variant in product.variants -%} -->
+                                  {% if option.selected_value == value %}
+                                checked
+                                  {% endif %}
+                                  
                               <div class="image-holder" aria-hidden="true">
-                                <img class="tile-image" src="{{ variant.featured_media | image_url:width:180,height:180 }}" style="height: 7rem; padding: 0.25rem 0.25rem 0;" alt="cranberry chutney signature five wick candle">
+                                <img class="tile-image" src="{{ variants[forloop.index ].featured_media | image_url:width:180,height:180 }}" style="height: 7rem; padding: 0.25rem 0.25rem 0;" alt="cranberry chutney signature five wick candle">
                               </div>
                               <div class="product-link text-center text12 bold">
-                                  <p class="m-0 text-break">{{ variant.title }}</p>
+                                  <p class="m-0 text-break">{{ variants[forloop.index ].title }}</p>
                               </div>
-                            
+                           <!--   {%- endfor -%} -->
                               </label>
                           </div>
                         {%- endfor -%}
