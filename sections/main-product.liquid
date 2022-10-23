@@ -496,9 +496,9 @@
                               name="{{ option.name }}"
                               value="{{ value | escape }}"
                               form="{{ product_form_id }}"
-                              {% if option.selected_value == value %}
+                             <!-- {% if option.selected_value == value %}
                                 checked
-                              {% endif %}
+                              {% endif %} -->
                             >
                             <label style="background-color:unset; border:unset;" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                               <div class="image-holder">
@@ -1260,9 +1260,6 @@
       $('#truncated-mobile').fadeIn(100);
     })
   });
-
-
-  
 </script>
 <!-- End Nguyen code -->
                   
