@@ -155,7 +155,7 @@ a:hover{
 }
 
 .grid{
-  justify-content: left;
+  justify-content: left !important;
 }
 /* End Nguyen custom*/
 
