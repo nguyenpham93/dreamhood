@@ -26,7 +26,7 @@
         "8d4b8b13-93ee-4d32-917c-5b0659d14d71": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
