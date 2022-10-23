@@ -505,7 +505,7 @@
                               {% endif %}
                             >
                             <label style="background-color:unset; border:unset;" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }} ">
-                              <!--  {%- for variant in product.variants -%} -->
+                              
                                   {% if option.selected_value == value %}
                                 checked
                                   {% endif %}
@@ -516,7 +516,7 @@
                               <div class="product-link text-center text12 bold">
                                   <p class="m-0 text-break">{{ variants[forloop.index ].title }}</p>
                               </div>
-                           <!--   {%- endfor -%} -->
+                         
                               </label>
                           </div>
                         {%- endfor -%}
