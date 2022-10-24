@@ -168,6 +168,10 @@ a:hover{
   background-repeat: no-repeat; /* Do not repeat the image */
   padding: 10rem 0 5rem 0;
 }
+
+.handcrafted-video{
+  border-radius: 8px;
+}
 /* End Nguyen custom*/
 
 :root,
