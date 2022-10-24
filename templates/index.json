@@ -112,49 +112,10 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -230,7 +191,6 @@
     "699e3e22-82c5-42c6-bcb1-7c038976a736",
     "rich_text",
     "featured_collection",
-    "collage",
     "video",
     "multicolumn"
   ]
