@@ -1,7 +1,10 @@
 /* Color custom properties */
 
 /* Start Nguyen custom*/
-
+@font-face {
+    font-family: "Allura";
+    src: url({{ "allura-v18-latin-regular.tff" | file_url }}) format("TrueType");
+}
 .handwriting-font-art{
   font-family: 'Allura' !important;
   font-size: 4rem;
@@ -3147,7 +3150,4 @@ details-disclosure > details {
   }
 }
 
-@font-face {
-    font-family: "Allura";
-    src: url({{ "allura-v18-latin-regular" | file_url }}) format("TrueType");
-}
+
