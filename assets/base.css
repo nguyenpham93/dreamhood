@@ -164,6 +164,9 @@ a:hover{
 
 .about-us-section{
   background-image: url("https://cdn.shopify.com/s/files/1/0668/9482/3649/files/background-about-us.png?v=1666600016");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 /* End Nguyen custom*/
 
