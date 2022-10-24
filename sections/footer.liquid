@@ -329,14 +329,15 @@
             </ul>
           </div>
         {%- endif -%} -->
-        <div class="grid footer__copyright caption">
-          <div class="grid--3-col grid__item">
+        <div class="grid grid--3-col footer__copyright caption">
+          <div class="grid__item">
             <div class="grid__item brand-logo-footer">
               <a role="link" href="/">
                 <img class="logo-img" src="https://cdn.shopify.com/s/files/1/0668/9482/3649/files/logo.svg?v=1666648743" alt="Dreamhood Candle">
               </a>
             </div>
-            <div class="grid--3-col">
+          </div>
+          <div class="grid">
               <div class="grid__item">
                 <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
               </div>
@@ -350,7 +351,6 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
