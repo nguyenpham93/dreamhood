@@ -161,6 +161,10 @@ a:hover{
 .variant input:checked+label{
   border:1px solid black;
 }
+
+.about-us-section{
+  background-image: url("https://cdn.shopify.com/s/files/1/0668/9482/3649/files/background-about-us.png?v=1666600016");
+}
 /* End Nguyen custom*/
 
 :root,
