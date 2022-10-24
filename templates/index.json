@@ -187,6 +187,117 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b41f7a3e-6013-4cda-b060-21ed286eb266": {
+      "type": "collage",
+      "blocks": {
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-0",
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-1",
+        "template--16637955014881__b41f7a3e-6013-4cda-b060-21ed286eb266-16665969212a1705dc-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d88a0c7d-b080-4aa4-a0c7-589025248506": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-0",
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-1",
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-2",
+        "template--16637955014881__d88a0c7d-b080-4aa4-a0c7-589025248506-16665969211e689fe5-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b83556ae-9dbd-499a-90e5-504ba1fa209f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'about-us' %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -195,6 +306,9 @@
     "rich_text",
     "featured_collection",
     "7c0a355f-c514-49a5-aa1d-6a226880fe08",
-    "3f9f0436-98a2-4a20-9747-97e6f203f26d"
+    "3f9f0436-98a2-4a20-9747-97e6f203f26d",
+    "b41f7a3e-6013-4cda-b060-21ed286eb266",
+    "d88a0c7d-b080-4aa4-a0c7-589025248506",
+    "b83556ae-9dbd-499a-90e5-504ba1fa209f"
   ]
 }
