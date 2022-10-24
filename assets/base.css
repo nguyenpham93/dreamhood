@@ -185,6 +185,9 @@ a:hover{
 .handcrafted-video-container{
   padding:2rem;
 }
+.section-footer-padding{
+  padding-bottom:0 !important;
+}
 /* End Nguyen custom*/
 
 :root,
