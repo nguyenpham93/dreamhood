@@ -13,6 +13,9 @@
   padding-left:0.5rem;
   padding-right:0.5rem;
 }
+.footer__copyright .grid__item{
+  margin:auto;
+}
 .flag{
   width: 2rem;
   height: 1.5rem;
