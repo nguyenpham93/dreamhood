@@ -339,7 +339,14 @@
             <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
           </div>
           <div class="grid__item">&nbsp;</div>
-          <div class="grid__item">USA</div>
+          <div class="grid__item">
+            <div class="country-select-link footer-country-selector pl-lg-0 pb-2 pt-2 float-lg-right">
+              <p class="country-select list-box btn-link-grey no-link m-0 align-items-center" aria-label="country selector list clickable">
+                <img class="flag" src="https://cdn.shopify.com/s/files/1/0668/9482/3649/files/US.webp?v=1666649157" alt="">
+                <span class="text14 px-2 country-selected text-decoration-none">United States</span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
