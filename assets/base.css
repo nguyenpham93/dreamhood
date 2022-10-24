@@ -722,7 +722,7 @@ blockquote {
 
 .caption {
   font-size: 1rem;
-  letter-spacing: 0.07rem;
+  letter-spacing: normal;
   line-height: calc(1 + 0.7 / var(--font-body-scale));
 }
 
