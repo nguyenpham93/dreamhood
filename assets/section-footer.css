@@ -366,15 +366,10 @@ noscript .localization-selector.link {
 }
 
 .footer__copyright {
-  text-align: center;
+  text-align: left;
   padding:2rem;
 }
 
-@media screen and (min-width: 750px) {
-  .footer__copyright {
-    text-align: right;
-  }
-}
 
 @keyframes appear-down {
   0% {
