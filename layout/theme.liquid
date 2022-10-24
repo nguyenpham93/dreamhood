@@ -231,6 +231,14 @@
           font-size: 1.4rem;
         }
       }
+
+      .text14 {
+        font-size: 1.4rem !important!;
+      }
+      @media screen and (min-width: 750px)
+      .text14 {
+          font-size: 1.4rem !important!;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
