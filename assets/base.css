@@ -3146,3 +3146,8 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+@font-face {
+    font-family: "Allura";
+    src: url({{ "allura-v18-latin-regular.woff2" | asset_url }}) format("woff2");
+}
