@@ -36,13 +36,6 @@ a:hover{
   text-decoration: underline;
 }
 
-.text12{
-  font-size: 1.2rem;
-  font-weight:400;
-  color:#000;
-}
-
-
 .spr-stars{
   font-style: italic;
   font-weight: 500;
@@ -3170,6 +3163,12 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+.text12{
+  font-size: 1.2rem;
+  font-weight:400;
+  color:#000;
 }
 
 .text14 {
