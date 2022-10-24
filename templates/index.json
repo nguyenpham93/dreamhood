@@ -78,10 +78,19 @@
           "settings": {
             "text": "<p><strong>FREE SHIPPING<\/strong> | Enjoy free shipping on orders over 50$!<\/p>"
           }
+        },
+        "ba8b746e-7130-4fa0-8103-3a0df776dc55": {
+          "type": "caption",
+          "settings": {
+            "caption": "FREE SHIPPING | Enjoy free shipping on orders over 50$!",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
         }
       },
       "block_order": [
-        "text"
+        "text",
+        "ba8b746e-7130-4fa0-8103-3a0df776dc55"
       ],
       "settings": {
         "desktop_content_position": "center",
