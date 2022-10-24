@@ -11,6 +11,9 @@
   width: 2rem;
   height: 1.5rem;
   vertical-align: middle;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .handwriting-font-art{
