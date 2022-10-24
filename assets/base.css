@@ -8,6 +8,8 @@
   padding-right:0.5rem;
   letter-spacing: normal;
   line-height: 1.5;
+  
+  text-decoration:none !inportant;
 }
 .flag{
   width: 2rem;
