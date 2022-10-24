@@ -4,8 +4,10 @@
 
 .text14 {
   font-size: 1.4rem !important!;
-  letter-spacing: normal;
-  line-height: 1.5;
+}
+@media screen and (min-width: 750px)
+.text14 {
+    font-size: 1.4rem !important!;
 }
 .text-country-footer{
   position: relative;
