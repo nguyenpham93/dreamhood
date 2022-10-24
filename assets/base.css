@@ -5,6 +5,11 @@
 .text14 {
   font-size: 1.4rem !important;
 }
+.flag{
+  width: 2rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
 
 .handwriting-font-art{
   font-family: 'Allura' !important;
