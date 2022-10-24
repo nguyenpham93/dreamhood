@@ -6,6 +6,8 @@
   font-size: 1.4rem !important;
   padding-left:0.5rem;
   padding-right:0.5rem;
+  letter-spacing: normal;
+  line-height: 1.5;
 }
 .flag{
   width: 2rem;
@@ -13,7 +15,7 @@
   vertical-align: middle;
   border-style: none;
   -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .handwriting-font-art{
