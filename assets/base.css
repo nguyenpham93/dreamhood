@@ -169,12 +169,13 @@ a:hover{
 
 .about-us-section{
   background-image: url("https://cdn.shopify.com/s/files/1/0668/9482/3649/files/background-about-us.png?v=1666600016");
-  background-position: bottom left; /* Center the image */
+  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
 }
 @media screen and (min-width: 750px) {
   .about-us-section {
     padding: 10rem 0 5rem 0;
+    background-position: bottom left
   }
 }
 
