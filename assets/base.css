@@ -188,6 +188,9 @@ a:hover{
 .section-footer-padding{
   padding-bottom:0 !important;
 }
+.footer__content-bottom{
+  background-color:#5E5E4A;
+}
 /* End Nguyen custom*/
 
 :root,
