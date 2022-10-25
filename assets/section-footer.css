@@ -608,7 +608,9 @@ noscript .localization-selector.link {
   padding-left:0 !important;
   padding-right:0 !important;
 }
-
+.footer__content-bottom-mobile.page-width{
+  padding: 1.5rem 1.5rem;
+}
 
 .customer-service-mobile{
   padding-left:1em;
