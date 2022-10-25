@@ -654,9 +654,7 @@ noscript .localization-selector.link {
 }
 
 .customer-service-mobile{
-  padding-left:1em;
-  padding-right:1em;
-  margin-bottom: 2rem;
+  padding: 2rem 1rem;
 }
 
 /* END Mobile footer CSS by Nguyen */
