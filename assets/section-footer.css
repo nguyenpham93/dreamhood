@@ -514,27 +514,20 @@ noscript .localization-selector.link {
 
 .accordianNav a{
   color: #5E5E4A;
+  text-decoration: none;
+  padding-left: 0;
 }
 .accordianNav h3 {
     display: block;
     line-height: 2.5em;
     color: #000;
-    letter-spacing: 2px;
     position: relative;
     z-index: 1;
     cursor: pointer;
     padding-left: 1em;
-    font-size: 1em;
-    font-weight: 100;
+    font-size: 1.4em;
+    font-weight: 300;
 }
-
-.accordianNav a {
-    text-decoration: none;
-    padding-left: 0;
-}
-
-
-
 
 
 /* Background hover animation. */
@@ -547,7 +540,7 @@ noscript .localization-selector.link {
     top: 0;
     width: 0;
     height: 100%;
-    background-color: #444;
+    background-color: #000;
     background: rgba(244, 244, 244, .3);
     transition: all 0.3s ease-out;
 }
