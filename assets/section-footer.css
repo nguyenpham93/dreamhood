@@ -584,17 +584,7 @@ noscript .localization-selector.link {
 
 /* +Hover and Touch effect */
 
-.accordianNav a:hover,
-.accordianNav a:active,
-.accordianNav h3:hover,
-.accordianNav h3:active,
-.accordianNav h3.dropArrow:hover:after,
-.accordianNav h3.dropArrow:active:after {
-    color: white;
-    border-color: #fff;
-    -webkit-transition: all 0.5s cubic-bezier(0.36, 1.64, 0.29, 0.88);
-    transition: all 0.5s cubic-bezier(0.36, 1.64, 0.29, 0.88);
-}
+
 
 .accordianNav li {
     list-style-type: none;
