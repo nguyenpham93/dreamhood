@@ -510,7 +510,12 @@ noscript .localization-selector.link {
 }
 
 /* START Mobile footer CSS by Nguyen */
-
+.accordianNav {
+    /*  this width is arbitrary and here for display only */
+    max-width: 300px;
+    background: #222;
+    padding: 1em 0;
+}
 
 .accordianNav a,
 .accordianNav h3 {
