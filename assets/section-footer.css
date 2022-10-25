@@ -514,7 +514,6 @@ noscript .localization-selector.link {
     /*  this width is arbitrary and here for display only */
     max-width: 300px;
     background: #222;
-    margin: 5em 2em 0 5em;
     padding: 1em 0;
     border-radius: 4px;
 }
