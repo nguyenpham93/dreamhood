@@ -575,7 +575,7 @@ noscript .localization-selector.link {
 
 .accordianNav .dropArrow.active:after {
     transform: rotate(-135deg);
-    border-color: #fff;
+    border-color: #000;
 }
 
 
