@@ -42,53 +42,29 @@
   <div class="footer__content-top page-width">
     <div class="footer__blocks-wrapper grid grid--1-col">
 
-      
-      <div class="accordianNav grid__item">
-        <ul class="collap-menu-mobile">
-          {%- for block in section.blocks -%}
-          <li {{ block.shopify_attributes }}>
-            <h3 class="dropArrow"><span>{%- if block.settings.heading != blank -%}{{- block.settings.heading | escape -}}{%- endif -%}</span></h3>
-      		{%- case block.type -%}
-              {%- when 'link_list' -%}
-                {%- if block.settings.menu != blank -%}
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'link_list' -%}
+            <div class="accordianNav grid__item" {{ block.shopify_attributes }}>
+              <ul class="collap-menu-mobile">
+                <li>
+                  <h3 class="dropArrow"><span>{%- if block.settings.heading != blank -%}{{- block.settings.heading | escape -}}{%- endif -%}</span></h3>
+            	  {%- if block.settings.menu != blank -%}
                   <ul class="collap-menu-mobile">
                     {%- for link in block.settings.menu.links -%}
                       <li><a href="{{ link.url }}">{{ link.title }}</a></li>           	  
                     {%- endfor -%}
             	  </ul>
-                {%- endif -%}
-            {%- endcase -%}
-      	  </li>
-          {%- endfor -%}
-         <!-- <li>
-            <h3 class="dropArrow"><span>Resources</span></h3>
-            <ul class="collap-menu-mobile">
-    		  <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    		</ul>
-    	  </li>
-    
-    	  <li>
-    	    <h3 class="dropArrow"><span>Legal</span></h3>
-    		<ul class="collap-menu-mobile">
-    		  <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    		</ul>
-    	  </li>
-          
-          <li>
-    	    <h3 class="dropArrow"><span>Customer Service</span></h3>
-    		<ul class="collap-menu-mobile">
-    		  <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    		</ul>
-    	  </li> -->
-          
-       </ul>
-      </div>
-
+                  {%- endif -%}
+        	    </li>       
+              </ul>
+            </div>
+          {%- when 'text' -%}
+            <div class="grid__item">
+              {{ block.settings.subtext }}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
       
     </div>
   </div>
