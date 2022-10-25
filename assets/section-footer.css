@@ -660,5 +660,13 @@ noscript .localization-selector.link {
   margin:0 !important;
   line-height: 1.5rem;
 }
+.customer-service-mobile h3{
+  padding-left: 1em;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin:0;  
+  line-height: 2.5em;
+}
+
 
 /* END Mobile footer CSS by Nguyen */
