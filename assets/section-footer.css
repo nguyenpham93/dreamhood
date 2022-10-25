@@ -657,7 +657,7 @@ noscript .localization-selector.link {
   padding: 2rem 1rem;
 }
 .customer-service-mobile p{
-  margin:0;
+  margin:0 !important;
 }
 
 /* END Mobile footer CSS by Nguyen */
