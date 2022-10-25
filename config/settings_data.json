@@ -181,12 +181,20 @@
               "heading": "Our mission",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
+          },
+          "237a06c3-c1d5-4d3c-92fc-544c563bc431": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Legal",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "237a06c3-c1d5-4d3c-92fc-544c563bc431"
         ],
         "settings": {
           "color_scheme": "accent-2",
