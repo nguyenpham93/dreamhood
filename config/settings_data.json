@@ -171,8 +171,8 @@
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "Resources",
+              "menu": "resources-footer-menu"
             }
           },
           "237a06c3-c1d5-4d3c-92fc-544c563bc431": {
