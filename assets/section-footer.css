@@ -556,10 +556,6 @@ noscript .localization-selector.link {
     transition: all 0.3s ease-out;
 }
 
-.accordianNav h3:hover:before,
-.accordianNav .dropArrow.active:before {
-    width: 2%;
-}
 
 .accordianNav .dropArrow span {
     z-index: 2;
