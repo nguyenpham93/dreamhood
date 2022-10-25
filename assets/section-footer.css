@@ -584,7 +584,7 @@ noscript .localization-selector.link {
 /*Drop links*/
 
 .accordianNav ul ul li a {
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 2rem !important;
 }
 
 
