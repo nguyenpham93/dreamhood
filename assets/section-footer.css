@@ -572,9 +572,6 @@ noscript .localization-selector.link {
     transform-origin: center;
 }
 
-.accordianNav .dropArrow.active {
-    color: white;
-}
 
 .accordianNav .dropArrow.active:after {
     transform: rotate(-135deg);
