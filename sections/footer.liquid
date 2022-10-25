@@ -36,6 +36,52 @@
   }
 {%- endstyle -%}
 
+
+<!-- START Nguyen code: Footer on Mobile, code tay nen khi thay doi can chinh sua code -->
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding medium-hide large-up-hide">
+  <div class="footer__content-top page-width">
+    <div class="footer__blocks-wrapper grid grid--1-col">
+
+      
+      <div class="accordianNav">
+        <ul>
+          <li>
+            <h3 class="dropArrow"><span>Dropdown</span></h3>
+    		<ul>
+              <li><a href="#">Dropped Link</a></li>
+    		  <li><a href="#">Dropped Link</a></li> 
+    	      <li><a href="#">Dropped Link</a></li>
+    		  <li><a href="#">Dropped Link</a></li>
+    	    </ul>
+      	  </li>
+    
+          <li>
+            <h3 class="dropArrow"><span>Dropdown</span></h3>
+            <ul>
+    		  <li><a href="#">Dropped Link</a></li>
+    		  <li><a href="#">Dropped Link</a></li>
+    		</ul>
+    	  </li>
+    
+    	  <li>
+    	    <h3 class="dropArrow"><span>Dropdown</span></h3>
+    		<ul>
+    		  <li><a href="#">Dropped Link</a></li>
+    		  <li><a href="#">Dropped Link</a></li>
+    		  <li><a href="#">Dropped Link</a></li>
+    		</ul>
+    	  </li>
+       </ul>
+      </div>
+
+      
+    </div>
+  </div>
+</footer>
+
+<!-- END Nguyen code: Footer on MobilE -->
+
+<!-- Nguyen code: Footer on Desktop -->
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding small-hide">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">

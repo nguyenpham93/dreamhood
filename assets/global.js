@@ -946,5 +946,14 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define('product-recommendations', ProductRecommendations);
 
+//Footer script by Nguyen
+$(".accordianNav h3.dropArrow").click(function() {
+    $("h3.dropArrow").removeClass("active");
+    $(".accordianNav ul ul").slideUp();
+    if (!$(this).next().is(":visible")) {
+        $(this).next().slideDown();
+        $(this).addClass("active");
+    }
+})
 
 
