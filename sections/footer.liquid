@@ -45,17 +45,22 @@
       
       <div class="accordianNav grid__item">
         <ul class="collap-menu-mobile">
-          <li>
-            <h3 class="dropArrow"><span>Dreamhood Candle</span></h3>
-    		<ul class="collap-menu-mobile">
-              <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li> 
-    	      <li><a href="#">Dropped Link</a></li>
-    		  <li><a href="#">Dropped Link</a></li>
-    	    </ul>
+          {%- for block in section.blocks -%}
+          <li {{ block.shopify_attributes }}>
+            <h3 class="dropArrow"><span>{%- if block.settings.heading != blank -%}{{- block.settings.heading | escape -}}{%- endif -%}</span></h3>
+      		{%- case block.type -%}
+              {%- when 'link_list' -%}
+                {%- if block.settings.menu != blank -%}
+                  <ul class="collap-menu-mobile">
+                    {%- for link in block.settings.menu.links -%}
+                      <li><a href="{{ link.url }}">{{ link.title }}</a></li>           	  
+                    {%- endfor -%}
+            	  </ul>
+                {%- endif -%}
+            {%- endcase -%}
       	  </li>
-    
-          <li>
+          {%- endfor -%}
+         <!-- <li>
             <h3 class="dropArrow"><span>Resources</span></h3>
             <ul class="collap-menu-mobile">
     		  <li><a href="#">Dropped Link</a></li>
@@ -71,6 +76,7 @@
     		  <li><a href="#">Dropped Link</a></li>
     		</ul>
     	  </li>
+          
           <li>
     	    <h3 class="dropArrow"><span>Customer Service</span></h3>
     		<ul class="collap-menu-mobile">
@@ -78,7 +84,8 @@
     		  <li><a href="#">Dropped Link</a></li>
     		  <li><a href="#">Dropped Link</a></li>
     		</ul>
-    	  </li>
+    	  </li> -->
+          
        </ul>
       </div>
 
