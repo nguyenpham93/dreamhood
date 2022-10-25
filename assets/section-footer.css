@@ -611,6 +611,9 @@ noscript .localization-selector.link {
 .footer__content-bottom-mobile.page-width{
   padding: 1.5rem 1.5rem;
 }
+.footer__content-bottom-mobile .grid__item{
+  text-align:center !important;
+}
 
 .customer-service-mobile{
   padding-left:1em;
