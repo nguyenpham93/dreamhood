@@ -632,7 +632,7 @@ noscript .localization-selector.link {
 .accordianNav ul ul {
     display: none;
 }
-accordianNav ul{
+.collap-menu-mobile{
   padding-left: 0 !important;
 }
 
