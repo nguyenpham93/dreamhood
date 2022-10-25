@@ -585,6 +585,8 @@ noscript .localization-selector.link {
 
 .accordianNav ul ul li a {
   padding: 1rem 1rem 1rem 2rem !important;
+  display: inline-block;
+  outline-offset: 0.0625rem;
 }
 
 
