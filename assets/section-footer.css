@@ -571,13 +571,7 @@ noscript .localization-selector.link {
     border-color: #000;
 }
 
-
-
-
-
 /* +Hover and Touch effect */
-
-
 
 .accordianNav li {
     list-style-type: none;
@@ -593,13 +587,6 @@ noscript .localization-selector.link {
 
 .accordianNav ul ul li a {
     padding: 0 0 0 2.5em;
-}
-
-
-/*hover effect on links*/
-
-.accordianNav ul ul li a:hover {
-    transform: translate(8px, 0px);
 }
 
 
