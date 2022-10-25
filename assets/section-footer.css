@@ -517,11 +517,13 @@ noscript .localization-selector.link {
     padding: 1em 0;
 }
 
-.accordianNav a,
+.accordianNav a{
+  color: #5E5E4A;
+}
 .accordianNav h3 {
     display: block;
     line-height: 2.5em;
-    color: #5E5E4A;
+    color: #000;
     letter-spacing: 2px;
     position: relative;
     z-index: 1;
