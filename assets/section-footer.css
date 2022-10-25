@@ -658,6 +658,7 @@ noscript .localization-selector.link {
 }
 .customer-service-mobile p{
   margin:0 !important;
+  line-height: 1.5rem;
 }
 
 /* END Mobile footer CSS by Nguyen */
