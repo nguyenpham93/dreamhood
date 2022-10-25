@@ -604,16 +604,11 @@ noscript .localization-selector.link {
     display: block;
 }
 
-.footer-mobile .footer__content-top{
+.footer__content-top-mobile{
   padding-left:0 !important;
   padding-right:0 !important;
 }
-@media screen and (max-width: 749px){
-  .footer__content-top {
-    padding-left:0 !important;
-    padding-right:0 !important;
-  }  
-}
+
 
 .customer-service-mobile{
   padding-left:1em;
