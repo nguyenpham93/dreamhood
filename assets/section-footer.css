@@ -621,6 +621,11 @@ noscript .localization-selector.link {
 .footer-country-selector .country-select{
   text-align:right;
 }
+@media screen and (max-width: 749px) {
+    .country-select {
+      text-align:center;
+    }
+}
 .footer__copyright .grid__item{
   margin:auto;
 }
@@ -650,4 +655,5 @@ noscript .localization-selector.link {
   padding-left:1em;
   padding-right:1em;
 }
+
 /* END Mobile footer CSS by Nguyen */
