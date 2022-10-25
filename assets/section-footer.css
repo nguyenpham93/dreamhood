@@ -516,7 +516,6 @@ noscript .localization-selector.link {
   color: #5E5E4A;
   text-decoration: none;
   padding-left: 0;
-  padding: 1rem 1rem 1rem 2rem;
 }
 .accordianNav h3 {
     display: block;
@@ -581,16 +580,11 @@ noscript .localization-selector.link {
     border-bottom: .0625rem solid #eaeaea;
 }
 
-.accordianNav a {
-    transform: translate(0px, 0px);
-    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
 
 /*Drop links*/
 
 .accordianNav ul ul li a {
-    padding: 0 0 0 2.5em;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 
