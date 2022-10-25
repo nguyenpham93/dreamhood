@@ -642,7 +642,7 @@ noscript .localization-selector.link {
 }
 
 .footer-mobile .footer__content-top{
-  padding-left:0;
-  padding-right:0;
+  padding-left:0 !important;
+  padding-right:0 !important;
 }
 /* END Mobile footer CSS by Nguyen */
