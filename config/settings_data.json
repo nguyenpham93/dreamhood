@@ -186,7 +186,7 @@
             "type": "text",
             "settings": {
               "heading": "Customer Service",
-              "subtext": "<p>Email: support@dreamhoodcandle.com<\/p><p><strong>Happiness Guaranteed.<\/strong><br\/>Love it or exchange — it's just that simple.<\/p>"
+              "subtext": "<p>Email: support@dreamhoodcandle.com<br\/><strong>Happiness Guaranteed.<\/strong><\/p><p>Love it or exchange — it's just that simple.<\/p>"
             }
           }
         },
