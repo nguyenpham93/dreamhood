@@ -576,6 +576,8 @@ noscript .localization-selector.link {
 
 .accordianNav li {
     list-style-type: none;
+    border-top: .0625rem solid #eaeaea;
+    border-bottom: .0625rem solid #eaeaea;
 }
 
 .accordianNav a {
