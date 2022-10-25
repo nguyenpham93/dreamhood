@@ -640,4 +640,9 @@ noscript .localization-selector.link {
 .accordianNav li.active ul {
     display: block;
 }
+
+.footer-mobile .footer__content-top{
+  padding-left:0;
+  padding-right:0;
+}
 /* END Mobile footer CSS by Nguyen */
