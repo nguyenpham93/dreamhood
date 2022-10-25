@@ -645,4 +645,11 @@ noscript .localization-selector.link {
   padding-left:0 !important;
   padding-right:0 !important;
 }
+@media screen and (max-width: 749px){
+  .footer__content-top {
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }  
+}
+
 /* END Mobile footer CSS by Nguyen */
