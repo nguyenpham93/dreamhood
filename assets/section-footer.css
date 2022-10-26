@@ -672,6 +672,8 @@ noscript .localization-selector.link {
   border-top: 0.125rem solid #eaeaea;
   border-bottom: 0.125rem solid #eaeaea;
 }
-
+.footer-section--newsletter .page-width{
+  padding: 1.5rem 0; 
+}
 
 /* END Mobile footer CSS by Nguyen */
