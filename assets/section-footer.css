@@ -667,5 +667,11 @@ noscript .localization-selector.link {
   line-height: 2.5em;
 }
 
+/* Newsettle */
+.footer-section--newsletter{
+  border-top: 0.125rem solid #eaeaea;
+  border-bottom: 0.125rem solid #eaeaea;
+}
+
 
 /* END Mobile footer CSS by Nguyen */
