@@ -5,7 +5,7 @@
     "gradient_accent_1": "",
     "colors_accent_2": "#ffffff",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
+    "colors_text": "#000000",
     "colors_outline_button_labels": "#ffffff",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
@@ -226,15 +226,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "21474836472147483647": {
-        "type": "shopify:\/\/apps\/fontify-use-any-font\/blocks\/app-embed\/334490e2-2153-4a2e-a452-e90bdeffa3cc",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
