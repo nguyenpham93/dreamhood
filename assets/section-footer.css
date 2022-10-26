@@ -671,6 +671,7 @@ noscript .localization-selector.link {
 .footer-section--newsletter{
   border-top: 0.125rem solid #eaeaea;
   border-bottom: 0.125rem solid #eaeaea;
+  margin-top:3rem;
 }
 .footer-section--newsletter .page-width{
   padding: 3rem 0; 
