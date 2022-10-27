@@ -837,7 +837,7 @@ h6:empty {
   font-size: 1.4rem;
   font-family: inherit;
 }
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 749px) {
   .link, .customer a{
     font-size: 1.6rem;
   }
