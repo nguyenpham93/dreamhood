@@ -11,6 +11,16 @@
     font-size: 1.6rem;
   }
 }
+.text16-16-12{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 750px) {
+  .text16-16-12{
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
 /* End Set of font size */
 
 
