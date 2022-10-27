@@ -3188,6 +3188,10 @@ body.gm-menu-installed header.header.header--middle-left.header--mobile-center.p
   grid-template-columns: auto 11fr 1fr !important;
 }
 
+.gm-menu-installed .gm-menu:not(.gm-menu-mobile){
+  position:unset !important;
+}
+
 
 
 
