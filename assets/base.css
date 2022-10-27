@@ -3,6 +3,9 @@
 /* Start Nguyen custom*/
 
 /* Start Set of font size */
+.bold{
+  font-weight:700;
+}
 .text12{
   font-size: 1.2rem !important;
 }
