@@ -3,6 +3,9 @@
 /* Start Nguyen custom*/
 
 /* Start Set of font size */
+.text12{
+  font-size: 1.2rem !important;
+}
 .text14-14-16{
   font-size: 1.4rem;
 }
