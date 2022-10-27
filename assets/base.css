@@ -3186,6 +3186,7 @@ details-disclosure > details {
 
 body.gm-menu-installed header.header.header--middle-left.header--mobile-center.page-width.header--has-menu{
   grid-template-columns: auto 11fr 1fr !important;
+  position:relative;
 }
 
 .gm-menu-installed .gm-menu:not(.gm-menu-mobile){
