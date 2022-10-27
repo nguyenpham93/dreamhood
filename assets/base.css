@@ -8,7 +8,7 @@
 }
 @media screen and (min-width: 750px) {
   .text14-14-16{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 /* End Set of font size */
@@ -836,6 +836,11 @@ h6:empty {
   background-color: transparent;
   font-size: 1.4rem;
   font-family: inherit;
+}
+@media screen and (min-width: 750px) {
+  .link, .customer a{
+    font-size: 1.6rem;
+  }
 }
 
 .link--text {
